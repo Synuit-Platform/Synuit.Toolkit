@@ -1,7 +1,6 @@
 C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit\bin\Release\netcoreapp2.0\Synuit.Toolkit.deps.json
 C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit\bin\Release\netcoreapp2.0\Synuit.Toolkit.dll
 C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit\bin\Release\netcoreapp2.0\Synuit.Toolkit.pdb
-C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit\obj\Release\netcoreapp2.0\Synuit.Toolkit.csprojResolveAssemblyReference.cache
 C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit\obj\Release\netcoreapp2.0\Synuit.Toolkit.csproj.CoreCompileInputs.cache
 C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit\obj\Release\netcoreapp2.0\Synuit.Toolkit.AssemblyInfoInputs.cache
 C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit\obj\Release\netcoreapp2.0\Synuit.Toolkit.AssemblyInfo.cs
