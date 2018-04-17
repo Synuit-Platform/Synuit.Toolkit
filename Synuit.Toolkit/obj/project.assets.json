@@ -720,7 +720,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
       "projectName": "Synuit.Toolkit",

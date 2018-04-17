@@ -6,8 +6,9 @@
     <Company>Synuit Software</Company>
     <Authors>Tyson A. Corvin</Authors>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageLicenseUrl>https://github.com/tcorvin/Synuit.Toolkit/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/Synuit/Synuit.Toolkit/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>2018 SYNUIT, LLC</Copyright>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

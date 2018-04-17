@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Synuit.Toolkit/1.0.0": {
+      "Synuit.Toolkit/1.0.1": {
         "dependencies": {
           "Unity.NetCore": "4.0.3"
         },
@@ -32,7 +32,7 @@
     }
   },
   "libraries": {
-    "Synuit.Toolkit/1.0.0": {
+    "Synuit.Toolkit/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Synuit.Toolkit</id>
+    <version>1.0.1</version>
+    <authors>Tyson A. Corvin</authors>
+    <owners>Tyson A. Corvin</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/Synuit/Synuit.Toolkit/blob/master/LICENSE</licenseUrl>
+    <description>Package Description</description>
+    <copyright>2018 SYNUIT, LLC</copyright>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Unity.NetCore" version="4.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit\bin\Release\netcoreapp2.0\Synuit.Toolkit.dll" target="lib\netcoreapp2.0\Synuit.Toolkit.dll" />
+  </files>
+</package>
