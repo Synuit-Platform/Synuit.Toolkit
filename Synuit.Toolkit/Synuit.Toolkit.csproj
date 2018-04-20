@@ -8,10 +8,12 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://github.com/Synuit/Synuit.Toolkit/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>2018 SYNUIT, LLC</Copyright>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Composition" Version="1.0.31" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Unity.NetCore" Version="4.0.3" />
   </ItemGroup>
 

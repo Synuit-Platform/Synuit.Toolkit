@@ -1,0 +1,12 @@
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.deps.json
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.dll
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.pdb
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netcoreapp2.0\Synuit.Toolkit.dll
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netcoreapp2.0\Synuit.Toolkit.pdb
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.csproj.CoreCompileInputs.cache
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.AssemblyInfoInputs.cache
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.AssemblyInfo.cs
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.csproj.CopyComplete
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.dll
+C:\Users\tcorvin\Google Drive\synuit\software\solutions\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netcoreapp2.0\Synuit.Toolkit.Test.Plugin.B.pdb

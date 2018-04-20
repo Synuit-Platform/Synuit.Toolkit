@@ -1,0 +1,123 @@
+﻿
+
+
+You can add multiple configuration files, such as appsettings.json, appsettings.dev.json, appsettings.test.json, then set the dev value for related environment variable and set test value for related variable of build.
+
+After that replace the value in appsettings.test.json file through Token Replace task
+
+Simple steps:
+
+1)Install Microsoft.Extensions.Configuration.Json package to your xUnit test project
+
+2) Add appsettings.json, appsettings.dev.json and appsettings.test.json configuration files to project
+
+appsettings.json:
+
+{
+  "ConnectionStrings": {
+    "BloggingDatabase": "Server=(localdb)\\mssqllocaldb;Database=EFGetStarted.ConsoleApp.NewDb;Trusted_Connection=True;"
+  },
+  "OtherSettings": {
+    "UserName": "name1",
+    "Pass": "pass1"
+  }
+}
+
+
+appsettings.dev.json:
+
+{
+  "ConnectionStrings": {
+    "BloggingDatabase": "Server=(localdb)\\mssqllocaldb;Database=dev;Trusted_Connection=True;"
+  },
+  "OtherSettings": {
+    "UserName": "devname1",
+    "Pass": "pass1"
+  }
+}
+
+appsettings.test.json:
+
+{
+  "ConnectionStrings": {
+    "BloggingDatabase": "Server=(localdb)\\mssqllocaldb;Database=#{testDev}#;Trusted_Connection=True;"
+  },
+  "OtherSettings": {
+    "UserName": "#{testName}#",
+    "Pass": "pass1"
+  }
+}
+
+3) Set Copy to Output Directory property of these files to Copy if newer. 
+
+4)  Simple test code:
+
+var envVariable = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
+                Console.WriteLine($"env: {envVariable}");
+                var config = new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json")
+                     .AddJsonFile($"appsettings.{envVariable}.json", optional: true)
+                    .Build();
+                var conn = config.GetConnectionString("BloggingDatabase");
+                var otherSettings = config["OtherSettings:UserName"];
+                Console.WriteLine(conn);
+                Console.WriteLine(otherSettings);
+
+5) Add ASPNETCORE_ENVIRONMENT (value: test), testDev and testName variables to build definition, you can click the lock icon to change variable type to secret.
+6) Add Replace Tokens task before build task (Target files: **\appsettings.test.json)
+
+
+           //   public void ConfigureServices(IServiceCollection services, string connectionString, string pluginPath)
+      //   {
+      //      // --> ensure that plugin libraries are loaded
+      //      if (!_composed)
+      //      {
+      //         this.Compose(pluginPath);
+      //      }
+      //      // --> connect to authentication provider database
+      //      var optionsBuilder = new DbContextOptionsBuilder<PluginConfigDbContext>();
+      //      optionsBuilder.UseSqlite(connectionString);
+      //      var _db = new PluginConfigDbContext(optionsBuilder.Options);
+
+      //      // --> are there any registered providers enabled for activation?
+      //      if (!(from i in _db.PluginConfig
+      //            where i.Enabled.Equals(true)
+      //            select i).Any())
+      //      {
+      //         throw new Exception("AuthenticationCatalog:ConfigureServices - No authentication services registered.");
+      //      }
+
+      //      // --> load enabled configurations
+      //      var plugins =
+      //      (
+      //         from i in _db.PluginConfig
+      //         where i.Enabled.Equals(true)
+      //         select i
+      //      );
+
+      //      // --> activate an authentication builder
+      //      var builder = services.AddAuthentication();
+      //      // --> 
+      //      foreach (var pluginConfig in plugins)
+      //      {
+      //         var factory = _pluginFactories[pluginConfig.DriverName];
+      //         var plugin = factory.CreateNewPluginInstance();
+      //         //
+      //         plugin.Configure(builder, pluginConfig);
+      //      }
+      //   }
+      //   ////[Import]
+      //   ////public IMessageSender MessageSender { get; set; }
+      //   ////private void Compose()
+      //   ////{
+      //   ////   var assemblies = new[] { typeof(Program).GetTypeInfo().Assembly };
+      //   ////   var configuration = new ContainerConfiguration()
+      //   ////       .WithAssembly(typeof(Program).GetTypeInfo().Assembly);
+      //   ////   using (var container = configuration.CreateContainer())
+      //   ////   {
+      //   ////      MessageSender = container.GetExport<IMessageSender>();
+      //   ////   }
+      //   ////}
+      //}
+      //
