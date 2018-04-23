@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Synuit.Toolkit/1.0.3": {
+      "Synuit.Toolkit/1.0.4": {
         "dependencies": {
           "Microsoft.Composition": "1.0.31",
           "Newtonsoft.Json": "11.0.2",
@@ -297,7 +297,7 @@
     }
   },
   "libraries": {
-    "Synuit.Toolkit/1.0.3": {
+    "Synuit.Toolkit/1.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -7,14 +7,23 @@
     <Authors>Tyson A. Corvin</Authors>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://github.com/Synuit/Synuit.Toolkit/blob/master/LICENSE</PackageLicenseUrl>
-    <Copyright>2018 SYNUIT, LLC</Copyright>
-    <Version>1.0.3</Version>
+    <Copyright>Copyright © 2012-2018 Synuit Software</Copyright>
+    <Version>1.0.4</Version>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryType>C#</RepositoryType>
+    <PackageProjectUrl>https://github.com/Synuit/Synuit.Toolkit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Synuit/Synuit.Toolkit</RepositoryUrl>
+    <PackageIconUrl>http://www.javelinmediagroup.com/wp-content/uploads/2018/04/synuit_packages.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Composition" Version="1.0.31" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Unity.NetCore" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Docs\" />
   </ItemGroup>
 
 </Project>

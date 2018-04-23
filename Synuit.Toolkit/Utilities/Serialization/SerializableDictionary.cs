@@ -1,14 +1,9 @@
-﻿//
-//  Synuit.Toolkit - Synuit Platform Tools - Type Library, Patterns and Tooling 
-//  Copyright © 2012-2018 Synuit. All Rights Reserved.
-//
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Xml.Serialization;
-
-namespace Synuit.Toolkit.Structures
+//
+namespace Synuit.Toolkit.Utilities.Serialization
 {
+   // --> http://weblogs.asp.net/pwelter34/archive/2006/05/03/444961.aspx
    [XmlRoot("dictionary")]
    public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>, IXmlSerializable
    {

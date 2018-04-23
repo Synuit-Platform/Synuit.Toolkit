@@ -18,11 +18,10 @@ namespace Synuit.Toolkit.Composition
     public abstract class AbstractCatalog<T> : ICompositionCatalog<T> where T: class
     {
       public bool Composed { get; internal set; } = false;
-      public IDictionary<string, T> Instances { get { return _instances; } }
-      protected IDictionary<string, T> _instances { get; set; } = new Dictionary<string, T>();
-
+      public IDictionary<string, T> Instances { get; internal set; } = new Dictionary<string, T>(); //{ get { return _instances; } }
+      
       [ImportMany]
-      protected IEnumerable<T> _objects { get; set; }
+      private IEnumerable<T> _objects { get; set; }
       //
       public void Compose(string repository, string filter = "*.*")
       {
@@ -30,14 +29,14 @@ namespace Synuit.Toolkit.Composition
          {
             throw new Exception("CompositionCatalog:Compose - repository string not specified.");
          }
-
+         //
          var assemblies = Directory
             .GetFiles(repository, filter, SearchOption.AllDirectories)
             .Select(AssemblyLoadContext.Default.LoadFromAssemblyPath)
             .ToList();
          //
-         var configuration = new ContainerConfiguration().WithAssemblies(assemblies);
-         //
+         var configuration = new ContainerConfiguration()
+            .WithAssemblies(assemblies);
          using (var container = configuration.CreateContainer())
          {
             this._objects = container.GetExports<T>();
@@ -47,7 +46,7 @@ namespace Synuit.Toolkit.Composition
             foreach (var obj in this._objects)
             {
                var key = DeriveKey(obj);
-               _instances.Add(key, obj);
+               this.Instances.Add(key, obj);
             }
          }
          else

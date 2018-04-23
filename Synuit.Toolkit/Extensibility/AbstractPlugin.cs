@@ -38,8 +38,10 @@ namespace Synuit.Toolkit.Extensibility
          throw new NotImplementedException();
       }
       //
-      protected abstract void ConfigureFromMetaModel(object host, IPluginConfig config);
-
+      protected virtual void ConfigureFromMetaModel(object host, IPluginConfig config)
+       {
+         throw new NotImplementedException();
+      }
       //
       protected virtual void ConfigureFromAssembly(object host, IPluginConfig config)
       {
