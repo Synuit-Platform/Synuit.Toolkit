@@ -62,7 +62,7 @@ namespace Synuit.Toolkit.Tests
          var catalog = new PluginCatalog();
          Assert.True(catalog.Composed == false);
          catalog.Compose(repo, "Synuit.Toolkit.Test.Plugin.*.dll");
-         Assert.True(catalog.PluginFactories.Count == 2 );
+         Assert.True(catalog.Instances.Count == 2 );
          Assert.True(catalog.Composed == true);
       }
       //
@@ -74,11 +74,11 @@ namespace Synuit.Toolkit.Tests
          var catalog = new PluginCatalog();
          catalog.Compose(repo, "Synuit.Toolkit.Test.Plugin.*.dll"); 
          //
-         var factory = catalog.PluginFactories["A"];
+         var factory = catalog.Instances["A"];
          Assert.True((factory.Name == "A") && (factory.DisplayName == "TEST PLUGIN A") && (factory.GetMetadata() != ""));
          var metadataA = factory.GetMetadata();
          //
-         factory = catalog.PluginFactories["B"];
+         factory = catalog.Instances["B"];
          Assert.True((factory.Name == "B") && (factory.DisplayName == "TEST PLUGIN B") && (factory.GetMetadata() != ""));
          var metadataB = factory.GetMetadata();
          //
@@ -93,11 +93,11 @@ namespace Synuit.Toolkit.Tests
          catalog.Compose(repo, "Synuit.Toolkit.Test.Plugin.*.dll");
          
          // --> reference factories and pull their default metadata/templates 
-         var factoryA = catalog.PluginFactories["A"];
+         var factoryA = catalog.Instances["A"];
          Assert.True((factoryA.Name == "A") && (factoryA.DisplayName == "TEST PLUGIN A") && (factoryA.GetMetadata() != ""));
          var metadataA = factoryA.GetMetadata();
          //
-         var factoryB = catalog.PluginFactories["B"];
+         var factoryB = catalog.Instances["B"];
          Assert.True((factoryB.Name == "B") && (factoryB.DisplayName == "TEST PLUGIN B") && (factoryB.GetMetadata() != ""));
          var metadataB = factoryB.GetMetadata();
          //

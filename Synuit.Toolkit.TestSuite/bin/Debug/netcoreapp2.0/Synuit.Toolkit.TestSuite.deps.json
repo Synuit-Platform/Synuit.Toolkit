@@ -1158,7 +1158,7 @@
           "Microsoft.NET.Test.Sdk": "15.7.0"
         }
       },
-      "Synuit.Toolkit/1.0.3": {
+      "Synuit.Toolkit/1.0.5": {
         "dependencies": {
           "Microsoft.Composition": "1.0.31",
           "Newtonsoft.Json": "11.0.2",
@@ -1170,7 +1170,7 @@
       },
       "Synuit.Toolkit.Test.Plugin.A/1.0.0": {
         "dependencies": {
-          "Synuit.Toolkit": "1.0.3"
+          "Synuit.Toolkit": "1.0.5"
         },
         "runtime": {
           "Synuit.Toolkit.Test.Plugin.A.dll": {}
@@ -1178,7 +1178,7 @@
       },
       "Synuit.Toolkit.Test.Plugin.B/1.0.0": {
         "dependencies": {
-          "Synuit.Toolkit": "1.0.3"
+          "Synuit.Toolkit": "1.0.5"
         },
         "runtime": {
           "Synuit.Toolkit.Test.Plugin.B.dll": {}
@@ -1843,7 +1843,7 @@
       "path": "xunit.runner.visualstudio/2.3.1",
       "hashPath": "xunit.runner.visualstudio.2.3.1.nupkg.sha512"
     },
-    "Synuit.Toolkit/1.0.3": {
+    "Synuit.Toolkit/1.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

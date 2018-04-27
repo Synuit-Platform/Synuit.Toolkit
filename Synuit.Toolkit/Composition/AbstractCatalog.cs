@@ -18,6 +18,8 @@ namespace Synuit.Toolkit.Composition
     public abstract class AbstractCatalog<T> : ICompositionCatalog<T> where T: class
     {
       public bool Composed { get; internal set; } = false;
+      //
+      public bool Configured { get; internal set; } = false;
       public IDictionary<string, T> Instances { get; internal set; } = new Dictionary<string, T>(); //{ get { return _instances; } }
       
       [ImportMany]
@@ -27,7 +29,7 @@ namespace Synuit.Toolkit.Composition
       {
          if (repository == "")
          {
-            throw new Exception("CompositionCatalog:Compose - repository string not specified.");
+            throw new Exception("CompositionCatalog.Compose - repository string not specified.");
          }
          //
          var assemblies = Directory
@@ -53,6 +55,11 @@ namespace Synuit.Toolkit.Composition
          {
             throw new Exception("CompositionCatalog:Compose - no objects instantiated from catalog.");
          }
+         this.Composed = true;
+      }
+      //
+      public virtual void Configure()//(string repository, string filter = "*.*")
+      {
          this.Composed = true;
       }
       //

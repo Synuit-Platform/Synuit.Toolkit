@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v2.0": {
       "Synuit.Toolkit.Test.Plugin.B/1.0.0": {
         "dependencies": {
-          "Synuit.Toolkit": "1.0.3"
+          "Synuit.Toolkit": "1.0.5"
         },
         "runtime": {
           "Synuit.Toolkit.Test.Plugin.B.dll": {}
@@ -292,7 +292,7 @@
           "lib/netstandard2.0/Microsoft.Practices.Unity.dll": {}
         }
       },
-      "Synuit.Toolkit/1.0.3": {
+      "Synuit.Toolkit/1.0.5": {
         "dependencies": {
           "Microsoft.Composition": "1.0.31",
           "Newtonsoft.Json": "11.0.2",
@@ -534,7 +534,7 @@
       "path": "unity.netcore/4.0.3",
       "hashPath": "unity.netcore.4.0.3.nupkg.sha512"
     },
-    "Synuit.Toolkit/1.0.3": {
+    "Synuit.Toolkit/1.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
