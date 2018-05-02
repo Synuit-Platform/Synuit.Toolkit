@@ -1,25 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Synuit Software</Company>
     <Authors>Tyson A. Corvin</Authors>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://github.com/Synuit/Synuit.Toolkit/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>Copyright © 2012-2018 Synuit Software</Copyright>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <NeutralLanguage>en-US</NeutralLanguage>
     <RepositoryType>C#</RepositoryType>
     <PackageProjectUrl>https://github.com/Synuit/Synuit.Toolkit</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Synuit/Synuit.Toolkit</RepositoryUrl>
     <PackageIconUrl>http://www.javelinmediagroup.com/wp-content/uploads/2018/04/synuit_packages.png</PackageIconUrl>
+    <PackageReleaseNotes>v1.0.6 Modified to target .NET Standard 2.0 to enhance cross-platform capabilities.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Composition" Version="1.0.31" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="Unity.NetCore" Version="4.0.3" />
-  </ItemGroup>
-
+		<PackageReference Include="Microsoft.Composition" Version="1.0.31" />
+		<PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+		<PackageReference Include="Unity.NetCore" Version="4.0.3" />
+	</ItemGroup>
 </Project>

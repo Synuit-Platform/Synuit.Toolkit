@@ -9,7 +9,8 @@ using System.Composition.Hosting;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Runtime.Loader;
+//using System.Runtime.Loader;
+//using System.Runtime.
 using System.Text;
 using Synuit.Toolkit.Types.Composition;
 
@@ -34,7 +35,8 @@ namespace Synuit.Toolkit.Composition
          //
          var assemblies = Directory
             .GetFiles(repository, filter, SearchOption.AllDirectories)
-            .Select(AssemblyLoadContext.Default.LoadFromAssemblyPath)
+            //.Select(AssemblyLoadContext.Default.LoadFromAssemblyPath)
+            .Select(Assembly.LoadFile)
             .ToList();
          //
          var configuration = new ContainerConfiguration()

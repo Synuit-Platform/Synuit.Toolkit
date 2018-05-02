@@ -1853,9 +1853,9 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Synuit.Toolkit/1.0.5": {
+      "Synuit.Toolkit/1.0.6": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Composition": "1.0.31",
           "Newtonsoft.Json": "11.0.2",
@@ -1868,11 +1868,11 @@
           "bin/placeholder/Synuit.Toolkit.dll": {}
         }
       },
-      "Synuit.Toolkit.Test.Plugin.A/1.0.0": {
+      "Synuit.Toolkit.Test.Plugin.A/1.0.6": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Synuit.Toolkit": "1.0.5"
+          "Synuit.Toolkit": "1.0.6"
         },
         "compile": {
           "bin/placeholder/Synuit.Toolkit.Test.Plugin.A.dll": {}
@@ -1881,11 +1881,11 @@
           "bin/placeholder/Synuit.Toolkit.Test.Plugin.A.dll": {}
         }
       },
-      "Synuit.Toolkit.Test.Plugin.B/1.0.0": {
+      "Synuit.Toolkit.Test.Plugin.B/1.0.6": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Synuit.Toolkit": "1.0.5"
+          "Synuit.Toolkit": "1.0.6"
         },
         "compile": {
           "bin/placeholder/Synuit.Toolkit.Test.Plugin.B.dll": {}
@@ -2617,6 +2617,8 @@
       "type": "package",
       "path": "microsoft.win32.primitives/4.0.1",
       "files": [
+        "Microsoft.Win32.Primitives.4.0.1.nupkg.sha512",
+        "Microsoft.Win32.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2626,8 +2628,6 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.win32.primitives.4.0.1.nupkg.sha512",
-        "microsoft.win32.primitives.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net46/Microsoft.Win32.Primitives.dll",
@@ -2653,11 +2653,11 @@
       "type": "package",
       "path": "microsoft.win32.registry/4.0.0",
       "files": [
+        "Microsoft.Win32.Registry.4.0.0.nupkg.sha512",
+        "Microsoft.Win32.Registry.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/Microsoft.Win32.Registry.dll",
-        "microsoft.win32.registry.4.0.0.nupkg.sha512",
-        "microsoft.win32.registry.nuspec",
         "ref/net46/Microsoft.Win32.Registry.dll",
         "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
         "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
@@ -2840,8 +2840,8 @@
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "runtime.native.system.4.0.0.nupkg.sha512",
-        "runtime.native.system.nuspec"
+        "runtime.native.System.4.0.0.nupkg.sha512",
+        "runtime.native.System.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -2849,6 +2849,8 @@
       "type": "package",
       "path": "system.appcontext/4.1.0",
       "files": [
+        "System.AppContext.4.1.0.nupkg.sha512",
+        "System.AppContext.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2892,9 +2894,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.AppContext.dll",
-        "system.appcontext.4.1.0.nupkg.sha512",
-        "system.appcontext.nuspec"
+        "runtimes/aot/lib/netcore50/System.AppContext.dll"
       ]
     },
     "System.Collections/4.3.0": {
@@ -2968,6 +2968,8 @@
       "type": "package",
       "path": "system.collections.concurrent/4.0.12",
       "files": [
+        "System.Collections.Concurrent.4.0.12.nupkg.sha512",
+        "System.Collections.Concurrent.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3024,9 +3026,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.collections.concurrent.4.0.12.nupkg.sha512",
-        "system.collections.concurrent.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Collections.Immutable/1.2.0": {
@@ -3034,14 +3034,14 @@
       "type": "package",
       "path": "system.collections.immutable/1.2.0",
       "files": [
+        "System.Collections.Immutable.1.2.0.nupkg.sha512",
+        "System.Collections.Immutable.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Collections.Immutable.dll",
         "lib/netstandard1.0/System.Collections.Immutable.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
-        "system.collections.immutable.1.2.0.nupkg.sha512",
-        "system.collections.immutable.nuspec"
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml"
       ]
     },
     "System.Collections.NonGeneric/4.0.1": {
@@ -3478,6 +3478,8 @@
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
+        "System.Diagnostics.Process.4.1.0.nupkg.sha512",
+        "System.Diagnostics.Process.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3523,9 +3525,7 @@
         "runtimes/win/lib/net46/System.Diagnostics.Process.dll",
         "runtimes/win/lib/net461/System.Diagnostics.Process.dll",
         "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll",
-        "runtimes/win7/lib/netcore50/_._",
-        "system.diagnostics.process.4.1.0.nupkg.sha512",
-        "system.diagnostics.process.nuspec"
+        "runtimes/win7/lib/netcore50/_._"
       ]
     },
     "System.Diagnostics.TextWriterTraceListener/4.0.0": {
@@ -3664,6 +3664,8 @@
       "type": "package",
       "path": "system.diagnostics.tracing/4.1.0",
       "files": [
+        "System.Diagnostics.Tracing.4.1.0.nupkg.sha512",
+        "System.Diagnostics.Tracing.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3742,9 +3744,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.diagnostics.tracing.4.1.0.nupkg.sha512",
-        "system.diagnostics.tracing.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
@@ -4566,14 +4566,14 @@
       "type": "package",
       "path": "system.reflection.metadata/1.3.0",
       "files": [
+        "System.Reflection.Metadata.1.3.0.nupkg.sha512",
+        "System.Reflection.Metadata.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.1/System.Reflection.Metadata.dll",
         "lib/netstandard1.1/System.Reflection.Metadata.xml",
         "lib/portable-net45+win8/System.Reflection.Metadata.dll",
-        "lib/portable-net45+win8/System.Reflection.Metadata.xml",
-        "system.reflection.metadata.1.3.0.nupkg.sha512",
-        "system.reflection.metadata.nuspec"
+        "lib/portable-net45+win8/System.Reflection.Metadata.xml"
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
@@ -5057,6 +5057,8 @@
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
+        "System.Runtime.InteropServices.RuntimeInformation.4.0.0.nupkg.sha512",
+        "System.Runtime.InteropServices.RuntimeInformation.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5079,9 +5081,7 @@
         "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512",
-        "system.runtime.interopservices.runtimeinformation.nuspec"
+        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll"
       ]
     },
     "System.Runtime.Loader/4.0.0": {
@@ -5089,6 +5089,8 @@
       "type": "package",
       "path": "system.runtime.loader/4.0.0",
       "files": [
+        "System.Runtime.Loader.4.0.0.nupkg.sha512",
+        "System.Runtime.Loader.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net462/_._",
@@ -5103,9 +5105,7 @@
         "ref/netstandard1.5/ko/System.Runtime.Loader.xml",
         "ref/netstandard1.5/ru/System.Runtime.Loader.xml",
         "ref/netstandard1.5/zh-hans/System.Runtime.Loader.xml",
-        "ref/netstandard1.5/zh-hant/System.Runtime.Loader.xml",
-        "system.runtime.loader.4.0.0.nupkg.sha512",
-        "system.runtime.loader.nuspec"
+        "ref/netstandard1.5/zh-hant/System.Runtime.Loader.xml"
       ]
     },
     "System.Runtime.Serialization.Json/4.0.2": {
@@ -5604,6 +5604,8 @@
       "type": "package",
       "path": "system.threading.thread/4.0.0",
       "files": [
+        "System.Threading.Thread.4.0.0.nupkg.sha512",
+        "System.Threading.Thread.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5632,9 +5634,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.threading.thread.4.0.0.nupkg.sha512",
-        "system.threading.thread.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Threading.ThreadPool/4.0.10": {
@@ -5642,6 +5642,8 @@
       "type": "package",
       "path": "system.threading.threadpool/4.0.10",
       "files": [
+        "System.Threading.ThreadPool.4.0.10.nupkg.sha512",
+        "System.Threading.ThreadPool.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5670,9 +5672,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.threading.threadpool.4.0.10.nupkg.sha512",
-        "system.threading.threadpool.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Xml.ReaderWriter/4.0.11": {
@@ -5854,6 +5854,8 @@
       "type": "package",
       "path": "system.xml.xpath/4.0.1",
       "files": [
+        "System.Xml.XPath.4.0.1.nupkg.sha512",
+        "System.Xml.XPath.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5881,9 +5883,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.xml.xpath.4.0.1.nupkg.sha512",
-        "system.xml.xpath.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Xml.XPath.XmlDocument/4.0.1": {
@@ -6049,17 +6049,17 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Synuit.Toolkit/1.0.5": {
+    "Synuit.Toolkit/1.0.6": {
       "type": "project",
       "path": "../Synuit.Toolkit/Synuit.Toolkit.csproj",
       "msbuildProject": "../Synuit.Toolkit/Synuit.Toolkit.csproj"
     },
-    "Synuit.Toolkit.Test.Plugin.A/1.0.0": {
+    "Synuit.Toolkit.Test.Plugin.A/1.0.6": {
       "type": "project",
       "path": "../Synuit.Toolkit.Test.Plugin.A/Synuit.Toolkit.Test.Plugin.A.csproj",
       "msbuildProject": "../Synuit.Toolkit.Test.Plugin.A/Synuit.Toolkit.Test.Plugin.A.csproj"
     },
-    "Synuit.Toolkit.Test.Plugin.B/1.0.0": {
+    "Synuit.Toolkit.Test.Plugin.B/1.0.6": {
       "type": "project",
       "path": "../Synuit.Toolkit.Test.Plugin.B/Synuit.Toolkit.Test.Plugin.B.csproj",
       "msbuildProject": "../Synuit.Toolkit.Test.Plugin.B/Synuit.Toolkit.Test.Plugin.B.csproj"
@@ -6070,31 +6070,34 @@
       "Microsoft.Extensions.Configuration.Json >= 2.0.1",
       "Microsoft.NET.Test.Sdk >= 15.7.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Synuit.Toolkit.Test.Plugin.A >= 1.0.0",
-      "Synuit.Toolkit.Test.Plugin.B >= 1.0.0",
+      "Synuit.Toolkit.Test.Plugin.A >= 1.0.6",
+      "Synuit.Toolkit.Test.Plugin.B >= 1.0.6",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tcorvin\\.nuget\\packages\\": {},
+    "C:\\Users\\Tyson\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.6",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
+      "projectUniqueName": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
       "projectName": "Synuit.Toolkit.TestSuite",
-      "projectPath": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
-      "packagesPath": "C:\\Users\\tcorvin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\obj\\",
+      "projectPath": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
+      "packagesPath": "C:\\Users\\Tyson\\.nuget\\packages\\",
+      "outputPath": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tcorvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -6106,11 +6109,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj": {
-              "projectPath": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj"
+            "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj": {
+              "projectPath": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj"
             },
-            "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj": {
-              "projectPath": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj"
+            "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj": {
+              "projectPath": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj"
             }
           }
         }

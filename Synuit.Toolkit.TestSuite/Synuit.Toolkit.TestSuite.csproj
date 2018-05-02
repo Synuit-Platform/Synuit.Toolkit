@@ -6,6 +6,8 @@
     <IsPackable>false</IsPackable>
 
     <RootNamespace>Synuit.Toolkit.Tests</RootNamespace>
+
+    <Version>1.0.6</Version>
   </PropertyGroup>
 
   <ItemGroup>

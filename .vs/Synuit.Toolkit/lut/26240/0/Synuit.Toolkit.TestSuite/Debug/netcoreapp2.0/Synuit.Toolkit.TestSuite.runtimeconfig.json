@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "tfm": "netcoreApp2.0",
+    "framework": {
+      "name": "Microsoft.NETCore.App",
+      "version": "2.0.0"
+    }
+  }
+}
