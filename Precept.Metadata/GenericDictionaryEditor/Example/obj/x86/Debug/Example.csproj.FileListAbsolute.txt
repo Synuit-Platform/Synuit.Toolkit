@@ -1,0 +1,37 @@
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\bin\Debug\Example.exe.config
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\bin\Debug\Example.exe
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\bin\Debug\Example.pdb
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.dll
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.pdb
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.xml
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.Form1.resources
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.Properties.Resources.resources
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.exe
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.pdb
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\bin\Debug\Example.exe.config
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.exe
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.pdb
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\bin\Debug\Example.exe
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\bin\Debug\Example.pdb
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.xml
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.Form1.resources
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.Properties.Resources.resources
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\Example\obj\x86\Debug\Example.csproj.GenerateResource.Cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\bin\Debug\Example.exe.config
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\bin\Debug\Example.exe
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\bin\Debug\Example.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\bin\Debug\GenericDictionaryEditor.xml
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\obj\x86\Debug\Example.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\obj\x86\Debug\Example.Form1.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\obj\x86\Debug\Example.Properties.Resources.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\obj\x86\Debug\Example.csproj.GenerateResource.Cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\obj\x86\Debug\Example.exe
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\GenericDictionaryEditor\Example\obj\x86\Debug\Example.pdb

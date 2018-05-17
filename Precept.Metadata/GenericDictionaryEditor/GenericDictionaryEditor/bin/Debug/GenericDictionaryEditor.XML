@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GenericDictionaryEditor</name>
+    </assembly>
+    <members>
+        <member name="T:Wexman.Design.AttributeProvider">
+            <summary>
+            Provides attributes for the Keys or Values in the dictionary.
+            </summary>
+        </member>
+        <member name="M:Wexman.Design.AttributeProvider.GetAttributes(System.Type)">
+            <summary>
+            Returns a collection of attributes for the specified type.
+            </summary>
+            <param name="type">The type of the key or value to provide attributes for.</param>
+            <returns>An <see cref="T:System.ComponentModel.AttributeCollection"/> with the attributes for the component.</returns>
+        </member>
+        <member name="T:Wexman.Design.DefaultUsage">
+            <summary>
+            Used to specify whether the requested default value is to be used as Key or Value of a dictionary entry
+            </summary>
+            <remarks>If the default value is to be used as Key it may NOT be null (because the Dictionary doesn't allow null as Key)</remarks>
+        </member>
+        <member name="F:Wexman.Design.DefaultUsage.Key">
+            <summary>
+            The requested default value is to be used as Key in the dictionary
+            </summary>
+        </member>
+        <member name="F:Wexman.Design.DefaultUsage.Value">
+            <summary>
+            The requested default value is to be used as Value in the dictionary
+            </summary>
+        </member>
+        <member name="T:Wexman.Design.DefaultProvider`1">
+            <summary>
+            Provides default values for the Key or Value properties for new dictionary entries
+            </summary>
+            <typeparam name="T">The type of the Key or Value</typeparam>
+        </member>
+        <member name="M:Wexman.Design.DefaultProvider`1.GetDefault(Wexman.Design.DefaultUsage)">
+            <summary>
+            Returns a default value for the Key or Value properties for new dictionary entries
+            </summary>
+            <param name="usage">Specifies if the desired default value is to be used as Key or Value</param>
+            <returns>Returns a value of type T to be used as the default</returns>
+            <remarks>If the default value is to be used as Key it may NOT be null (because the Dictionary doesn't allow null as Key)</remarks>
+        </member>
+        <member name="T:Wexman.Design.GenericDictionaryEditor`2">
+            <summary>
+            A <see cref="T:System.Drawing.Design.UITypeEditor">UITypeEditor</see> for editing generic dictionaries in the <see cref="T:System.Windows.Forms.PropertyGrid">PropertyGrid</see>.
+            </summary>
+            <typeparam name="TKey">The type of the Keys in the dictionary.</typeparam>
+            <typeparam name="TValue">The type of the Values in the dictionary.</typeparam>
+        </member>
+        <member name="M:Wexman.Design.GenericDictionaryEditor`2.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the GenericDictionaryEditor class using the specified collection type.
+            </summary>
+            <param name="type">The type of the collection for this editor to edit.</param>
+        </member>
+        <member name="M:Wexman.Design.GenericDictionaryEditor`2.CreateCollectionForm">
+            <summary>
+            Creates a new form to display and edit the current collection.
+            </summary>
+            <returns>A <see cref="T:System.ComponentModel.Design.CollectionEditor.CollectionForm"/>  to provide as the user interface for editing the collection.</returns>
+        </member>
+        <member name="M:Wexman.Design.GenericDictionaryEditor`2.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)">
+            <summary>
+            Edits the value of the specified object using the specified service provider and context.
+            </summary>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that can be used to gain additional context information. </param>
+            <param name="provider">A service provider object through which editing services can be obtained.</param>
+            <param name="value">The object to edit the value of.</param>
+            <returns>The new value of the object. If the value of the object has not changed, this should return the same object it was passed.</returns>
+        </member>
+        <member name="M:Wexman.Design.GenericDictionaryEditor`2.CreateCollectionItemType">
+            <summary>
+            Gets the data type that this collection contains.
+            </summary>
+            <returns>The data type of the items in the collection, or an Object if no Item property can be located on the collection.</returns>
+        </member>
+        <member name="M:Wexman.Design.GenericDictionaryEditor`2.CreateInstance(System.Type)">
+            <summary>
+            Creates a new instance of the specified collection item type.
+            </summary>
+            <param name="itemType">The type of item to create.</param>
+            <returns>A new instance of the specified type.</returns>
+        </member>
+        <member name="M:Wexman.Design.GenericDictionaryEditor`2.GetItems(System.Object)">
+            <summary>
+            Gets an array of objects containing the specified collection.
+            </summary>
+            <param name="editValue">The collection to edit.</param>
+            <returns>An array containing the collection objects, or an empty object array if the specified collection does not inherit from ICollection.</returns>
+        </member>
+        <member name="M:Wexman.Design.GenericDictionaryEditor`2.SetItems(System.Object,System.Object[])">
+            <summary>
+            Sets the specified array as the items of the collection.
+            </summary>
+            <param name="editValue">The collection to edit.</param>
+            <param name="value">An array of objects to set as the collection items.</param>
+            <returns>The newly created collection object or, otherwise, the collection indicated by the <paramref name="editValue"/> parameter.</returns>
+        </member>
+        <member name="M:Wexman.Design.GenericDictionaryEditor`2.GetDisplayText(System.Object)">
+            <summary>
+            Retrieves the display text for the given list item.
+            </summary>
+            <param name="value">The list item for which to retrieve display text.</param>
+            <returns>he display text for <paramref name="value"/>.</returns>
+        </member>
+        <member name="T:Wexman.Design.GenericDictionaryEditorAttribute">
+            <summary>
+            Provides configuration options for the GenericDictionaryEditor.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.KeyDefaultProviderType">
+            <summary>
+            Specifies what type to use as a <see cref="T:Wexman.Design.DefaultProvider`1"/> for the keys in the dictionary.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.KeyConverterType">
+            <summary>
+            Specifies what type to use as a <see cref="T:System.ComponentModel.TypeConverter">converter</see> for the keys in the dictionary.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.KeyEditorType">
+            <summary>
+            Specifies what type to use as an <see cref="T:System.Drawing.Design.UITypeEditor">editor</see> to change the key of a dictionary entry.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.KeyAttributeProviderType">
+            <summary>
+            Specifies what type to use as an <see cref="T:Wexman.Design.AttributeProvider"/> for the keys in the dictionary.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.ValueDefaultProviderType">
+            <summary>
+            Specifies what type to use as a <see cref="T:Wexman.Design.DefaultProvider`1"/> for the values in the dictionary.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.ValueConverterType">
+            <summary>
+            Specifies what type to use as a <see cref="T:System.ComponentModel.TypeConverter">converter</see> for the values in the dictionary.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.ValueEditorType">
+            <summary>
+            Specifies what type to use as an <see cref="T:System.Drawing.Design.UITypeEditor">editor</see> to change the value of a dictionary entry.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.ValueAttributeProviderType">
+            <summary>
+            Specifies what type to use as <see cref="T:Wexman.Design.AttributeProvider"/> for the values in the dictionary.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.Title">
+            <summary>
+            The title for the editor window.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.KeyDisplayName">
+            <summary>
+            The display name for key property (defaults to "Key")
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.GenericDictionaryEditorAttribute.ValueDisplayName">
+            <summary>
+            The display name for value property (defaults to "Value")
+            </summary>
+        </member>
+        <member name="T:Wexman.Design.Properties.Resource1">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.Properties.Resource1.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.Properties.Resource1.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Wexman.Design.Properties.Resource1.GenericDictionaryEditorTitle">
+            <summary>
+              Looks up a localized string similar to GenericDictionaryEditor.
+            </summary>
+        </member>
+    </members>
+</doc>

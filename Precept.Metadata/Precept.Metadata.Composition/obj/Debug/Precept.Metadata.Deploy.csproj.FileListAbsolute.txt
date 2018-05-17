@@ -1,0 +1,15 @@
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\config\edna.core.config
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\config\log4net.config
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Precept.Metadata.Deploy.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Precept.Metadata.Deploy.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Precept.Architecture.Core.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Precept.Architecture.Types.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Precept.EDNA.Core.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Common.Logging.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Precept.Architecture.Core.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Precept.Architecture.Types.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\bin\Debug\Precept.EDNA.Core.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\obj\Debug\Precept.Metadata.Deploy.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\obj\Debug\Precept.Metadata.Deploy.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Deploy\obj\Debug\Precept.Metadata.Deploy.pdb

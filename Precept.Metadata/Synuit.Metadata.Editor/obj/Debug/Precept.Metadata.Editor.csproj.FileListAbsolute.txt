@@ -1,0 +1,51 @@
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Metadata.Editor.exe.config
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.Properties.Resources.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.Schema.SchemaEditorView.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.csproj.GenerateResource.Cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Metadata.Editor.exe
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Metadata.Editor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Common.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Metadata.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Common.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\GenericDictionaryEditor.xml
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Metadata.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.exe
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.PropertyGridDialog.resources
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.Editor.exe.config
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.exe
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.pdb
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.Editor.exe
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.Editor.pdb
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\GenericDictionaryEditor.dll
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Common.dll
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.dll
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Common.pdb
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\GenericDictionaryEditor.pdb
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\GenericDictionaryEditor.xml
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.pdb
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.csprojResolveAssemblyReference.cache
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.Properties.Resources.resources
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.PropertyGridDialog.resources
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.Schema.SchemaEditorView.resources
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.csproj.GenerateResource.Cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.Editor.exe.config
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.Editor.exe
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.Editor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Common.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Common.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\GenericDictionaryEditor.xml
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\bin\Debug\Precept.Metadata.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.Properties.Resources.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.PropertyGridDialog.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.Schema.SchemaEditorView.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.csproj.GenerateResource.Cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.exe
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor\obj\Debug\Precept.Metadata.Editor.pdb

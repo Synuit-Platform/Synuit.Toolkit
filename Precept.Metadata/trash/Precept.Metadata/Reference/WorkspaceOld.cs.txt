@@ -1,0 +1,119 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Reflection;
+using System.Diagnostics;
+using Precept.Common;
+//
+namespace Precept.Metadata
+{
+   public class Workspace<T, I> where T : Metadata.Context where I : Metadata.Item
+   {
+      public T Context { get; set; }
+
+      // Declare a delegate which will point to different anonymous methods.
+      private delegate void StepTreeWriteDelegate(T node, int step);
+
+      private delegate string StepTreeReadDelegate(T node, int step);
+
+
+
+
+      private void StepTreeWrite(T node, string value, int step, ref int top, ref string[] nodes, string description = "")
+      {
+         string key = nodes[step];
+
+         if ((top - step) != 0)
+         {
+            //T Child = (node.Contexts.Keys.Contains(key)) ? node.Contexts[key] : (T) Activator.CreateInstance(typeof(T), new object[] { key, "" }); // new Metadata.Context() { Name = key };
+            node.Contexts[key] = (node.Contexts.Keys.Contains(key)) ? node.Contexts[key] : (T)Activator.CreateInstance(typeof(T), new object[] { key, "" }); // new Metadata.Context() { Name = key };
+
+            // The current method will always be at the 0th frame on the stack.
+            //MethodBase method = new StackTrace().GetFrame(0).GetMethod();
+            //method.Invoke(null, new object[] { node.Contexts[key], ++step });
+            //MethodInfo method = (MethodInfo)new StackTrace().GetFrame(0).GetMethod();
+            //method.MakeGenericMethod(typeof(T)).Invoke(null, null);// new object[] { node.Contexts[key], ++step });
+
+            StepTreeWrite((T)node.Contexts[key], value, ++step, ref top, ref nodes, description);
+         }
+         else
+         {
+            node.Items[key] = (node.Items.Keys.Contains(key)) ? node.Items[key] : (I)Activator.CreateInstance(typeof(I), new object[] { key, description, value }); //new Metadata.Item() { Name = key, Description = description, Value = value };
+         }
+      }
+      // --> Write an item to the repository (if path (associated contexts and item) does not exist, they are created).
+      public void WriteItem(string path, string value, string name = "", string description = "")
+      {
+         string[] nodes = path.Split('.');
+         int top = nodes.Count() - 1;
+         // Nested function with recursion.
+         //StepTreeWriteDelegate StepTree = delegate (T node, int step)
+         //{
+         //   string key = nodes[step];
+
+         //   if ((top - step) != 0)
+         //   {
+         //      node.Contexts[key] = (node.Contexts.Keys.Contains(key)) ? node.Contexts[key] : (T) Activator.CreateInstance(typeof(T), new object[] { key, "" }); // new Metadata.Context() { Name = key };
+
+         //      // The current method will always be at the 0th frame on the stack.
+         //      //MethodBase method = new StackTrace().GetFrame(0).GetMethod();
+         //      //method.Invoke(null, new object[] { node.Contexts[key], ++step });
+         //      MethodInfo  method = (MethodInfo) new StackTrace().GetFrame(0).GetMethod();
+         //      method.MakeGenericMethod(typeof(T)).Invoke(null, null);// new object[] { node.Contexts[key], ++step });
+         //   }
+         //   else
+         //   {
+         //      node.Items[key] = (node.Items.Keys.Contains(key)) ? node.Items[key] : (I) Activator.CreateInstance(typeof(I), new object[] { key, description, value }); //new Metadata.Item() { Name = key, Description = description, Value = value };
+         //   }
+         //};
+
+         StepTreeWrite(Context, value, 0, ref top, ref nodes, description);
+      }
+      // -->
+      public string ReadItem(string path, string defaultValue = "")
+      {
+         string[] nodes = path.Split('.');
+         int top = nodes.Count() - 1;
+         // Nested function with recursion.
+         StepTreeReadDelegate StepTree = delegate (T node, int step)
+         {
+            string key = nodes[step];
+
+            MethodBase method = new StackTrace().GetFrame(0).GetMethod();
+            if ((top - step) != 0)
+            {
+               return (node.Contexts.Keys.Contains(key)) ? (string)method.Invoke(null, new object[] { node.Contexts[key], ++step }) : (defaultValue == "") ? "ERROR" : defaultValue;
+
+               // The current method will always be at the 0th frame on the stack.
+            }
+            else
+            {
+               return (node.Items.Keys.Contains(key)) ? node.Items[key].Value : (defaultValue == "") ? "ERROR" : defaultValue;
+            }
+         };
+
+         return StepTree(Context, 0);
+      }
+
+      //
+      public static Workspace<T, I> CreateWorkspace(string name, T context)
+      {
+         return new Workspace<T, I>() { Context = context };
+      }
+
+      //
+      public static void Save<T>(T context, string filepath) where T : Context
+      {
+         Utilities.SaveObject<T>(context, filepath);
+      }
+
+      //
+      public static T Load<T>(string filepath) where T : Context
+      {
+         return Utilities.LoadObject<T>(filepath);
+      }
+
+   }
+}

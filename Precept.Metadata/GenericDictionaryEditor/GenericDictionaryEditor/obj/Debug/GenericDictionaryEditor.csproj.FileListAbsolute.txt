@@ -1,0 +1,48 @@
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.XML
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.pdb
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\ResolveAssemblyReference.cache
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\Wexman.Design.Properties.Resource1.resources
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.dll
+C:\tac\drop\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.pdb
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.XML
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.pdb
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll.CodeAnalysisLog.xml
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll.lastcodeanalysissucceeded
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.csprojResolveAssemblyReference.cache
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\Wexman.Design.Properties.Resource1.resources
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.csproj.GenerateResource.Cache
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.dll
+D:\acumen\software\In-Process\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.XML
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll.CodeAnalysisLog.xml
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll.lastcodeanalysissucceeded
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\Wexman.Design.Properties.Resource1.resources
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.csproj.GenerateResource.Cache
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Downloads\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.XML
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll.CodeAnalysisLog.xml
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll.lastcodeanalysissucceeded
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\Wexman.Design.Properties.Resource1.resources
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.csproj.GenerateResource.Cache
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Google Drive\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.pdb
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.XML
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.pdb
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll.CodeAnalysisLog.xml
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\bin\Debug\GenericDictionaryEditor.dll.lastcodeanalysissucceeded
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.csprojResolveAssemblyReference.cache
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\Wexman.Design.Properties.Resource1.resources
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.csproj.GenerateResource.Cache
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.dll
+E:\data\precept\software\common\UI\GenericDictionaryEditor\GenericDictionaryEditor\obj\Debug\GenericDictionaryEditor.pdb

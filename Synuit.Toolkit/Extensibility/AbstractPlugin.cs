@@ -6,7 +6,8 @@ using System;
 //
 using Synuit.Toolkit.Types.Extensibility;
 using Newtonsoft.Json;
-using Synuit.Toolkit.Models.Metadata;
+using Synuit.Toolkit.Extensibility.Models.Metadata;
+
 //
 namespace Synuit.Toolkit.Extensibility
 {

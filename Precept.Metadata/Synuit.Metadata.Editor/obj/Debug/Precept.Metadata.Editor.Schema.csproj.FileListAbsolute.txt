@@ -1,0 +1,9 @@
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Metadata.Editor.Schema.exe.config
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Metadata.Editor.Schema.exe
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\bin\Debug\Precept.Metadata.Editor.Schema.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.Schema.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.Schema.Properties.Resources.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.Schema.SchemaEditor.resources
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.Schema.csproj.GenerateResource.Cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.Schema.exe
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata.Editor.Schema\obj\Debug\Precept.Metadata.Editor.Schema.pdb

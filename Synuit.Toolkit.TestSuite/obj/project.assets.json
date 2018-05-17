@@ -1853,7 +1853,7 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Synuit.Toolkit/1.0.6": {
+      "Synuit.Toolkit/1.1.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1872,7 +1872,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Synuit.Toolkit": "1.0.6"
+          "Synuit.Toolkit": "1.1.0"
         },
         "compile": {
           "bin/placeholder/Synuit.Toolkit.Test.Plugin.A.dll": {}
@@ -1885,7 +1885,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Synuit.Toolkit": "1.0.6"
+          "Synuit.Toolkit": "1.1.0"
         },
         "compile": {
           "bin/placeholder/Synuit.Toolkit.Test.Plugin.B.dll": {}
@@ -6049,7 +6049,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Synuit.Toolkit/1.0.6": {
+    "Synuit.Toolkit/1.1.0": {
       "type": "project",
       "path": "../Synuit.Toolkit/Synuit.Toolkit.csproj",
       "msbuildProject": "../Synuit.Toolkit/Synuit.Toolkit.csproj"
@@ -6077,43 +6077,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tyson\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\tcorvin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.6",
     "restore": {
-      "projectUniqueName": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
+      "projectUniqueName": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
       "projectName": "Synuit.Toolkit.TestSuite",
-      "projectPath": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
-      "packagesPath": "C:\\Users\\Tyson\\.nuget\\packages\\",
-      "outputPath": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\obj\\",
+      "projectPath": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
+      "packagesPath": "C:\\Users\\tcorvin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\tcorvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.synuit.io/nuget": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj": {
-              "projectPath": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj"
+            "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj": {
+              "projectPath": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj"
             },
-            "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj": {
-              "projectPath": "E:\\data\\synuit (1)\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj"
+            "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj": {
+              "projectPath": "C:\\Users\\tcorvin\\Google Drive\\synuit\\software\\solutions\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj"
             }
           }
         }

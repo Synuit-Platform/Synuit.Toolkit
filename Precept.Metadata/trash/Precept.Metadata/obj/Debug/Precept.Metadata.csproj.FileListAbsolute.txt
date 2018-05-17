@@ -1,0 +1,55 @@
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\bin\Debug\Precept.Metadata.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\bin\Debug\Precept.Metadata.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\bin\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\bin\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\bin\Debug\GenericDictionaryEditor.xml
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\obj\Debug\Precept.Metadata.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\obj\Debug\Precept.Metadata.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\obj\Debug\Precept.Metadata.pdb
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Metadata.dll
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Metadata.pdb
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.dll
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.pdb
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.xml
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.csprojResolveAssemblyReference.cache
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.dll
+P:\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.pdb
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Metadata.dll
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Metadata.pdb
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.dll
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Newtonsoft.Json.dll
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.pdb
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.xml
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Common.pdb
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Architecture.pdb
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Newtonsoft.Json.xml
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.csprojResolveAssemblyReference.cache
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.dll
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.pdb
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Architecture.dll
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Metadata.dll.config
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Unity.Abstractions.dll
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Unity.Container.dll
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Unity.Abstractions.pdb
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Unity.Container.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Metadata.dll.config
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Metadata.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Metadata.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Architecture.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Common.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Unity.Abstractions.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Unity.Container.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Architecture.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\GenericDictionaryEditor.xml
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Precept.Common.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Unity.Abstractions.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\bin\Debug\Unity.Container.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.csprojResolveAssemblyReference.cache
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.dll
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.pdb
+C:\Users\tcorvin\Google Drive\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.csproj.CoreCompileInputs.cache
+E:\data\precept\software\solutions\Precept.Metadata\Precept.Metadata\obj\Debug\Precept.Metadata.csproj.CoreCompileInputs.cache
