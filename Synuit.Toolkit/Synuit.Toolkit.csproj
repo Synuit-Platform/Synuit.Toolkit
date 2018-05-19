@@ -21,6 +21,8 @@
 
   <ItemGroup>
     <None Remove="Docs\Reference\WorkspaceOld.cs.txt" />
+    <None Remove="Utilities\File.md" />
+    <None Remove="Utilities\Utilities.md" />
   </ItemGroup>
 
   <ItemGroup>

@@ -6,6 +6,7 @@ using System;
 using System.Linq;
 using Synuit.Toolkit.Metadata.Models;
 using Synuit.Toolkit.Types.Metadata;
+using Synuit.Toolkit.Utilities;
 //
 namespace Precept.Metadata
 {
@@ -86,15 +87,15 @@ namespace Precept.Metadata
       }
 
       //
-      ////public static void Save(C context, string filepath) //where C : Context
-      ////{
-      ////   Utilities.SaveObject<C>(context, filepath);
-      ////}
+      public static void Save(C context, string filepath) //where C : Context
+      {
+         Common.SaveObject<C>(context, filepath);
+      }
 
-      //////
-      ////public static C Load(string filepath)// where C : Context
-      ////{
-      ////   return Utilities.LoadObject<C>(filepath);
-      ////}
+      //
+      public static C Load(string filepath)// where C : Context
+      {
+         return Common.LoadObject<C>(filepath);
+      }
    }
 }

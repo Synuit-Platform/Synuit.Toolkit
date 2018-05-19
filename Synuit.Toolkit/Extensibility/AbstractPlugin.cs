@@ -58,6 +58,5 @@ namespace Synuit.Toolkit.Extensibility
       {
          return JsonConvert.SerializeObject( model,Formatting.Indented );
       }
-
    }
 }

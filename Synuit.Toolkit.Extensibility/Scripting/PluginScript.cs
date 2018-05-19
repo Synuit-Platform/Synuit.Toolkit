@@ -22,10 +22,21 @@ namespace Synuit.Toolkit.Extensibility.Scripting
          _se.AddReference(reference);
       }
       //
-      void IPluginScript.Execute(object host, IPluginConfig config)
+      object IPluginScript.Compile(object host, IPluginConfig config)
+      {
+         return _se.CompileScript(config.Name, config.Metadata);
+      }
+      //
+      void IPluginScript.Execute(object host, IPluginConfig config )
       {
          IScript script = _se.CompileScript(config.Name, config.Metadata);
          var plugin = (IPlugin)_se.CreateInstance(script, args: new[] { this });
+
+         plugin.Configure(host, config);
+      }
+      void IPluginScript.Execute(object host, IPluginConfig config, object script)
+      {
+         var plugin = (IPlugin)_se.CreateInstance( (IScript) script, args: new[] { this } );
 
          plugin.Configure(host, config);
       }

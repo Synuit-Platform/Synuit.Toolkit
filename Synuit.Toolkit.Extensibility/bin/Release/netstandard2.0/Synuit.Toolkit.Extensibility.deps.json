@@ -7,11 +7,11 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Synuit.Toolkit.Extensibility/1.0.6": {
+      "Synuit.Toolkit.Extensibility/1.1.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.1",
           "Synuit.Scripting.NET": "1.0.2",
-          "Synuit.Toolkit": "1.0.6"
+          "Synuit.Toolkit": "1.1.0"
         },
         "runtime": {
           "Synuit.Toolkit.Extensibility.dll": {}
@@ -144,7 +144,7 @@
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "Synuit.Scripting/1.0.2": {
         "dependencies": {
-          "Synuit.Toolkit": "1.0.6"
+          "Synuit.Toolkit": "1.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Synuit.Scripting.dll": {}
@@ -154,7 +154,7 @@
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "2.7.0",
           "Synuit.Scripting": "1.0.2",
-          "Synuit.Toolkit": "1.0.6"
+          "Synuit.Toolkit": "1.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Synuit.Scripting.NET.dll": {}
@@ -969,7 +969,7 @@
           "lib/netstandard2.0/Microsoft.Practices.Unity.dll": {}
         }
       },
-      "Synuit.Toolkit/1.0.6": {
+      "Synuit.Toolkit/1.1.0": {
         "dependencies": {
           "Microsoft.Composition": "1.0.31",
           "Newtonsoft.Json": "11.0.2",
@@ -982,7 +982,7 @@
     }
   },
   "libraries": {
-    "Synuit.Toolkit.Extensibility/1.0.6": {
+    "Synuit.Toolkit.Extensibility/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1624,7 +1624,7 @@
       "path": "unity.netcore/4.0.3",
       "hashPath": "unity.netcore.4.0.3.nupkg.sha512"
     },
-    "Synuit.Toolkit/1.0.6": {
+    "Synuit.Toolkit/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

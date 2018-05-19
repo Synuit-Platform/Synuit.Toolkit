@@ -7,6 +7,8 @@ namespace Synuit.Toolkit.Types.Extensibility
    public interface IPluginScript
    {
       void AddReference(string reference);
-      void Execute(object host, IPluginConfig config);
+      object Compile(object host, IPluginConfig config);
+      void Execute( object host, IPluginConfig config );
+      void Execute (object host, IPluginConfig config, object script );
    }
 }

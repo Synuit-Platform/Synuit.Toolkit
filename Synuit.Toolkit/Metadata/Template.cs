@@ -5,6 +5,7 @@
 using System;
 using System.Linq;
 using Synuit.Toolkit.Metadata.Models;
+using Synuit.Toolkit.Utilities;
 using Synuit.Toolkit.Utilities.Serialization;
 
 namespace Synuit.Toolkit.Metadata
@@ -37,15 +38,15 @@ namespace Synuit.Toolkit.Metadata
       }
 
       //
-      ////public static void Save(Template<I, D> template, string filepath)
-      ////{
-      ////   //$!!$Utilities.SaveObject<Template<I, D>>(template, filepath);
-      ////}
+      public static void Save(Template<I, D> template, string filepath)
+      {
+         Common.SaveObject<Template<I, D>>(template, filepath);
+      }
 
-      //////
-      ////public static Template<I, D> Load(string filepath)
-      ////{
-      ////   //$!!$return Utilities.LoadObject<Template<I, D>>(filepath);
-      ////}
+      //
+      public static Template<I, D> Load(string filepath)
+      {
+         return Common.LoadObject<Template<I, D>>(filepath);
+      }
    }
 }
