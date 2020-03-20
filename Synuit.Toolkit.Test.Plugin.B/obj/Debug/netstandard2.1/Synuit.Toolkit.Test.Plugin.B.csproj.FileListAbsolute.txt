@@ -1,0 +1,11 @@
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.deps.json
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.dll
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.pdb
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netstandard2.1\Synuit.Toolkit.dll
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\bin\Debug\netstandard2.1\Synuit.Toolkit.pdb
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.csprojAssemblyReference.cache
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.AssemblyInfoInputs.cache
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.AssemblyInfo.cs
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.csproj.CopyComplete
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.dll
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.Test.Plugin.B\obj\Debug\netstandard2.1\Synuit.Toolkit.Test.Plugin.B.pdb

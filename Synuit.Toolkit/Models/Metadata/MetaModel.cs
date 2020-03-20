@@ -7,7 +7,7 @@ namespace Synuit.Toolkit.Models.Metadata
    public enum MetaModelType
    {
       Unknown = -1,
-      Explicit = 0,
+      Wellknown = 0,    
       Implicit = 1
    }
     public class MetaModel
