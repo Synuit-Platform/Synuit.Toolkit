@@ -1,6 +1,5 @@
-﻿using System.Composition;
-using Synuit.Toolkit.Extensibility;
-using Synuit.Toolkit.Types.Extensibility;
+﻿using Synuit.Toolkit.Infra.Extensibility.Types;
+using System.Composition;
 
 namespace Synuit.Toolkit.Test.Plugins
 {
@@ -8,6 +7,7 @@ namespace Synuit.Toolkit.Test.Plugins
    public class PluginAFactory : AbstractPluginFactory
    {
       public override string Name => "A";
+
       //
       public override string DisplayName => "TEST PLUGIN A";
 
@@ -15,6 +15,7 @@ namespace Synuit.Toolkit.Test.Plugins
       {
          return this.CreateInstance<PluginA>();
       }
+
       public override string GetMetadata()
       {
          return this.GetMetadata<PluginAMetadata>();

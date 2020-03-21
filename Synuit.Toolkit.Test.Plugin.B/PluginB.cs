@@ -1,5 +1,4 @@
-﻿using Synuit.Toolkit.Extensibility;
-using Synuit.Toolkit.Types.Extensibility;
+﻿using Synuit.Toolkit.Infra.Extensibility.Types;
 
 namespace Synuit.Toolkit.Test.Plugins
 {
