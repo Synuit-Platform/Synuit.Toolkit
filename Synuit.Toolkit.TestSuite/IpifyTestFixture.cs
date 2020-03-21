@@ -1,6 +1,6 @@
 ﻿using System.Net;
 using Xunit;
-using Synuit.Toolkit.Utilities.Net;
+using Synuit.Toolkit.Utils.Net;
 //
 namespace Synuit.Toolkit.Tests
 {

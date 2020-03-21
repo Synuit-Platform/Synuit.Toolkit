@@ -2,9 +2,10 @@
 //  Synuit.Toolkit - Synuit Platform Tools - Type Library, Patterns and Tooling 
 //  Copyright © 2012-2018 Synuit. All Rights Reserved.
 //
-using Synuit.Toolkit.Types.Extensibility;
+
 using Synuit.Scripting.NET.Roslyn;
 using Synuit.Scripting.Types;
+using Synuit.Toolkit.Infra.Extensibility.Types;
 //
 namespace Synuit.Toolkit.Extensibility.Scripting
 {

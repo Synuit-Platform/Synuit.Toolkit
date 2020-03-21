@@ -1,7 +1,7 @@
-﻿using System.Composition;
+﻿using Synuit.Toolkit.Infra.Extensibility.Types;
+using System.Composition;
 //
-using Synuit.Toolkit.Extensibility;
-using Synuit.Toolkit.Types.Extensibility;
+
 
 namespace Synuit.Toolkit.Test.Plugins
 {

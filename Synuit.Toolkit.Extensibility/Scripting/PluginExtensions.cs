@@ -2,7 +2,9 @@
 //  Synuit.Toolkit - Synuit Platform Tools - Type Library, Patterns and Tooling 
 //  Copyright © 2012-2018 Synuit. All Rights Reserved.
 //
-using Synuit.Toolkit.Types.Extensibility;
+
+
+using Synuit.Toolkit.Infra.Extensibility.Types;
 
 namespace Synuit.Toolkit.Extensibility.Scripting
 {
@@ -12,7 +14,7 @@ namespace Synuit.Toolkit.Extensibility.Scripting
       {
          var script = new PluginScript();
 
-         return script;
+         return (IPluginScript) script;
       }
     }
 }

@@ -3,8 +3,8 @@ using System.IO;
 using System.Reflection;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
-using Synuit.Toolkit.Extensibility;
-using Synuit.Toolkit.Extensibility.Models;
+using Synuit.Toolkit.Infra.Extensibility;
+using Synuit.Toolkit.Infra.Extensibility.Models;
 using Synuit.Toolkit.Test.Plugins;
 using Xunit;
 
@@ -121,7 +121,7 @@ namespace Synuit.Toolkit.Tests
             DisplayName = factoryA.DisplayName + "-TEST-1",
             DriverName = factoryA.Name,
             Metadata = metadataA,
-            PluginType = Types.Extensibility.PluginType.Configuration,
+            PluginType = Infra.Extensibility.Types.PluginType.Configuration,
             Enabled = true
          };
          //
@@ -141,7 +141,7 @@ namespace Synuit.Toolkit.Tests
             DisplayName = factoryB.DisplayName + "-TEST-1",
             DriverName = factoryB.Name,
             Metadata = metadataB,
-            PluginType = Types.Extensibility.PluginType.Configuration,
+            PluginType = Infra.Extensibility.Types.PluginType.Configuration,
             Enabled = true
          };
          // --> use factory to create instance of and configure plugin
