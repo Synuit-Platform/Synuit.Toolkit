@@ -122,6 +122,10 @@
               "target": "Package",
               "version": "[1.0.31, )"
             },
+            "Microsoft.DependencyValidation.Analyzers": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.2, )"

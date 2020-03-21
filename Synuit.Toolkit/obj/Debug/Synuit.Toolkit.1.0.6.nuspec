@@ -20,6 +20,7 @@
         <dependency id="Microsoft.AspNetCore.Mvc.ApiExplorer" version="2.2.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNetCore.Mvc.Core" version="2.2.5" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Composition" version="1.0.31" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.DependencyValidation.Analyzers" version="0.10.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.EntityFrameworkCore" version="3.1.2" exclude="Build,Analyzers" />
         <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="3.1.2" exclude="Build,Analyzers" />
         <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
@@ -28,6 +29,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\bin\Debug\netstandard2.1\Synuit.Toolkit.dll" target="lib\netstandard2.1\Synuit.Toolkit.dll" />
+    <file src="C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\bin\Debug\netstandard2.1\Synuit.Toolkit.dll" target="lib\netstandard2.1\Synuit.Toolkit.dll" />
   </files>
 </package>

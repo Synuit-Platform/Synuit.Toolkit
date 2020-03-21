@@ -7,12 +7,12 @@ namespace Synuit.Toolkit.Models.Metadata
    public enum MetaModelType
    {
       Unknown = -1,
-      WellKnown = 0,    
+      WellKnown = 0,
       Implicit = 1
    }
-    public class MetaModel
-    {
+   public class MetaModel
+   {
       public string Tag { get; set; }
       public virtual MetaModelType Type => MetaModelType.Unknown;
-    }
+   }
 }
