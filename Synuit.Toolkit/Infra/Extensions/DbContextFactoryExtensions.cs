@@ -71,7 +71,7 @@ namespace Microsoft.Extensions.DependencyInjection
       {
          AddCoreServices<TDataContext>(services, optionsAction, lifetime);
          //
-         var serviceProvider = services.BuildServiceProvider() ;
+         var serviceProvider = services.BuildServiceProvider();
          var options = serviceProvider.GetService<DbContextOptions<TDataContext>>();
          var parms = (provider == null) ? new object[] { options } : new object[] { options, serviceProvider };
          //

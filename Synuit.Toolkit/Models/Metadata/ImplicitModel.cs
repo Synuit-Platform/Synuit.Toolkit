@@ -4,8 +4,8 @@
 //
 namespace Synuit.Toolkit.Models.Metadata
 {
-    public class ImplicitModel: MetaModel
-    {
+   public class ImplicitModel : MetaModel
+   {
       public override MetaModelType Type => MetaModelType.Implicit;
       //public string Metadata { get; set; }
    }

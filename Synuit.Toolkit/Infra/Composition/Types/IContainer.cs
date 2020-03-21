@@ -12,7 +12,7 @@ namespace Synuit.Toolkit.Infra.Composition.Types
    public interface IContainer
    {
       bool ForwardContainerOnCreate { get; set; }
-      
+
       //$!!$
       //bool BootstrapLinked { get; }
       //void LinkBootstrap(IBootstrap bootStrap);

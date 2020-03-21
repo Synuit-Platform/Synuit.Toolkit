@@ -4,14 +4,14 @@
 //
 namespace Synuit.Toolkit.Infra.Extensibility.Types
 {
-    public interface IPluginConfig
-    {
+   public interface IPluginConfig
+   {
       int ID { get; set; }
       string Name { get; set; }
       string DisplayName { get; set; }
       string Metadata { get; set; }
       string DriverName { get; set; }
-      PluginType PluginType { get; set; } 
+      PluginType PluginType { get; set; }
       bool Enabled { get; set; }
    }
 }

@@ -17,4 +17,7 @@
     <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.core\2.3.1\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.3.1\build\xunit.core.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_DependencyValidation_Analyzers Condition=" '$(PkgMicrosoft_DependencyValidation_Analyzers)' == '' ">C:\Users\tcorv\.nuget\packages\microsoft.dependencyvalidation.analyzers\0.10.0</PkgMicrosoft_DependencyValidation_Analyzers>
+  </PropertyGroup>
 </Project>
