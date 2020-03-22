@@ -8439,11 +8439,11 @@
   "project": {
     "version": "1.0.6",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Extensibility\\Synuit.Toolkit.Extensibility.csproj",
+      "projectUniqueName": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Extensibility\\Synuit.Toolkit.Extensibility.csproj",
       "projectName": "Synuit.Toolkit.Extensibility",
-      "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Extensibility\\Synuit.Toolkit.Extensibility.csproj",
+      "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Extensibility\\Synuit.Toolkit.Extensibility.csproj",
       "packagesPath": "C:\\Users\\tcorv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Extensibility\\obj\\",
+      "outputPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Extensibility\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8463,8 +8463,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
-              "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj"
+            "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
+              "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj"
             }
           }
         }

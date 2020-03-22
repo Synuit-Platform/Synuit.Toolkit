@@ -30,14 +30,7 @@
 		<PackageReference Include="Unity.NetCore" Version="4.0.3" />
 	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Types\Composition\" />
-    <Folder Include="Types\Extensibility\" />
-  </ItemGroup>
 
-  <ItemGroup>
-    <AdditionalFiles Include="..\..\Synuit.Context\Synuit.Context.Dependency\DependencyValidation1.layerdiagram" Link="DependencyValidation1.layerdiagram">
-      <Visible>False</Visible>
-    </AdditionalFiles>
-  </ItemGroup>
+
+
 </Project>
