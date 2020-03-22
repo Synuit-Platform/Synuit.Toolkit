@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj": {}
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj": {
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj": {
       "version": "1.0.6",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj",
+        "projectUniqueName": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj",
         "projectName": "Synuit.Toolkit.Test.Plugin.A",
-        "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj",
+        "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj",
         "packagesPath": "C:\\Users\\tcorv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\obj\\",
+        "outputPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
-                "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj"
+              "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
+                "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj": {
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj": {
       "version": "1.0.6",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj",
+        "projectUniqueName": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj",
         "projectName": "Synuit.Toolkit.Test.Plugin.B",
-        "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj",
+        "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj",
         "packagesPath": "C:\\Users\\tcorv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\obj\\",
+        "outputPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -91,8 +91,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
-                "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj"
+              "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
+                "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj"
               }
             }
           }
@@ -124,14 +124,14 @@
         }
       }
     },
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj": {
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj": {
       "version": "1.0.6",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
+        "projectUniqueName": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
         "projectName": "Synuit.Toolkit.TestSuite",
-        "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
+        "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\Synuit.Toolkit.TestSuite.csproj",
         "packagesPath": "C:\\Users\\tcorv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\obj\\",
+        "outputPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.TestSuite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -151,11 +151,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj": {
-                "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj"
+              "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj": {
+                "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.A\\Synuit.Toolkit.Test.Plugin.A.csproj"
               },
-              "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj": {
-                "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj"
+              "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj": {
+                "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.Test.Plugin.B\\Synuit.Toolkit.Test.Plugin.B.csproj"
               }
             }
           }
@@ -208,14 +208,14 @@
         }
       }
     },
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
       "version": "1.0.6",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
+        "projectUniqueName": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
         "projectName": "Synuit.Toolkit",
-        "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
+        "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
         "packagesPath": "C:\\Users\\tcorv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\obj\\",
+        "outputPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
