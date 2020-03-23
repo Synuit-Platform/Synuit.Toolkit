@@ -9,7 +9,7 @@ namespace Synuit.Toolkit.Infra.Helpers
    {
       public static string GetMethodName(MethodBase method)
       {
-         return $"{method.DeclaringType.FullName.Split('+')[0]}.{method.DeclaringType.FullName.Split('+')[1].Split('<', '>')[1]}";
+         return $"{method.DeclaringType.FullName}.{method.Name}";
       }
    }
 }

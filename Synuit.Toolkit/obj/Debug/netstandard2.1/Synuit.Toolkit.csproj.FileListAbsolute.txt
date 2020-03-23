@@ -1,6 +1,7 @@
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\bin\Debug\netstandard2.1\Synuit.Toolkit.deps.json
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\bin\Debug\netstandard2.1\Synuit.Toolkit.dll
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\bin\Debug\netstandard2.1\Synuit.Toolkit.pdb
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\obj\Debug\netstandard2.1\Synuit.Toolkit.csprojAssemblyReference.cache
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\obj\Debug\netstandard2.1\Synuit.Toolkit.AssemblyInfoInputs.cache
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\obj\Debug\netstandard2.1\Synuit.Toolkit.AssemblyInfo.cs
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\obj\Debug\netstandard2.1\Synuit.Toolkit.dll
