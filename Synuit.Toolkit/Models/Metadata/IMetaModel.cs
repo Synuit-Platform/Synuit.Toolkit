@@ -4,8 +4,16 @@
 //
 namespace Synuit.Toolkit.Models.Metadata
 {
-   public class ExplicitModel : MetaModel
+   public enum ModelType
    {
-      public override MetaModelType Type => MetaModelType.WellKnown;
+      Unknown = -1,
+      WellKnown = 0,
+      Implicit = 1
+   }
+
+   public interface IMetaModel
+   {
+      string Tag { get; set; }
+      ModelType ModelType { get; }
    }
 }
