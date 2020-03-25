@@ -6,7 +6,7 @@ namespace Synuit.Toolkit.Models.Metadata
 {
    public class ImplicitModel : MetaModel
    {
-      public override ModelType ModelType => MetaModelType.Implicit;
+      public override ModelType ModelType => ModelType.Implicit;
       //public string Metadata { get; set; }
    }
 }

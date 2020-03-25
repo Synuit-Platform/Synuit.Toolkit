@@ -6,6 +6,6 @@ namespace Synuit.Toolkit.Models.Metadata
 {
    public class ExplicitModel : MetaModel
    {
-      public override MetaModelType Type => MetaModelType.WellKnown;
+      public override ModelType ModelType => ModelType.WellKnown;
    }
 }
