@@ -1,9 +1,10 @@
 ﻿using Microsoft.Data.SqlClient;
+using Synuit.Toolkit.Infra.Composition.Types;
 using System.Data;
 
 namespace Synuit.Toolkit.Infra.Data
 {
-   public abstract class DbConnectionFactory 
+   public abstract class DbConnectionFactory : IFactory<IDbConnection>
    {
       private readonly string _connection;
 
