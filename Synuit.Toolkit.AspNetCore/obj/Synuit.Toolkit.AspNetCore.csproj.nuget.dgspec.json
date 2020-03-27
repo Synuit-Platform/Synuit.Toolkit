@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj": {}
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj": {
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj",
         "projectName": "Synuit.Toolkit.AspNetCore",
-        "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj",
+        "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj",
         "packagesPath": "C:\\Users\\tcorv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\obj\\",
+        "outputPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,23 +44,23 @@
           "dependencies": {
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.Configuration.EnvironmentVariables": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",

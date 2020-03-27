@@ -1,7 +1,0 @@
-C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.deps.json
-C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.dll
-C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.pdb
-C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.AssemblyInfoInputs.cache
-C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.AssemblyInfo.cs
-C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.dll
-C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.pdb

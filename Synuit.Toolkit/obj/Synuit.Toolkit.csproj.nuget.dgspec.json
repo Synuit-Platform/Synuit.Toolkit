@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {}
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
+    "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
       "version": "1.0.6",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
+        "projectUniqueName": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
         "projectName": "Synuit.Toolkit",
-        "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
+        "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj",
         "packagesPath": "C:\\Users\\tcorv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\obj\\",
+        "outputPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -62,21 +62,17 @@
               "target": "Package",
               "version": "[1.0.31, )"
             },
-            "Microsoft.DependencyValidation.Analyzers": {
-              "target": "Package",
-              "version": "[0.10.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[11.0.2, )"
+              "version": "[12.0.3, )"
             },
             "Unity.NetCore": {
               "target": "Package",
