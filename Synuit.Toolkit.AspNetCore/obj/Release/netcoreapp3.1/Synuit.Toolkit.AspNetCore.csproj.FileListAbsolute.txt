@@ -1,0 +1,8 @@
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Release\netcoreapp3.1\Synuit.Toolkit.AspNetCore.deps.json
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Release\netcoreapp3.1\Synuit.Toolkit.AspNetCore.dll
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Release\netcoreapp3.1\Synuit.Toolkit.AspNetCore.pdb
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Release\netcoreapp3.1\Synuit.Toolkit.AspNetCore.csprojAssemblyReference.cache
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Release\netcoreapp3.1\Synuit.Toolkit.AspNetCore.AssemblyInfoInputs.cache
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Release\netcoreapp3.1\Synuit.Toolkit.AspNetCore.AssemblyInfo.cs
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Release\netcoreapp3.1\Synuit.Toolkit.AspNetCore.dll
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Release\netcoreapp3.1\Synuit.Toolkit.AspNetCore.pdb

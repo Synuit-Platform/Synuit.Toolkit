@@ -1,0 +1,204 @@
+﻿For the completion of the solution, I want to share the code I found and put together with those who are interested.
+
+Instead of (ab)using the System.Data.Linq.Mapping.ColumnAttribute, it might be more logic (and probably save, although the chance will be very small that Microsoft will change the linq to sql ColumnAttribute class) to create our own ColumnAttribute class:
+
+ColumnAttribute.cs
+
+using System;
+
+namespace DapperTestProj.DapperAttributeMapper //Maybe a better namespace here
+{
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
+    public class ColumnAttribute : Attribute
+    {
+        public string Name { get; set; }
+
+        public ColumnAttribute(string name)
+        {
+            Name = name;
+        }
+    }
+}
+Found in the topic I mentioned earlier, the FallBackTypeMapper and the ColumnAttributeTypeMapper classes:
+
+FallBackTypeMapper.cs
+
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using Dapper;
+
+namespace DapperTestProj.DapperAttributeMapper
+{
+    public class FallBackTypeMapper : SqlMapper.ITypeMap
+    {
+        private readonly IEnumerable<SqlMapper.ITypeMap> _mappers;
+
+        public FallBackTypeMapper(IEnumerable<SqlMapper.ITypeMap> mappers)
+        {
+            _mappers = mappers;
+        }
+
+        public ConstructorInfo FindConstructor(string[] names, Type[] types)
+        {
+            foreach (var mapper in _mappers)
+            {
+                try
+                {
+                    var result = mapper.FindConstructor(names, types);
+
+                    if (result != null)
+                    {
+                        return result;
+                    }
+                }
+                catch (NotImplementedException nix)
+                {
+                    // the CustomPropertyTypeMap only supports a no-args
+                    // constructor and throws a not implemented exception.
+                    // to work around that, catch and ignore.
+                }
+            }
+            return null;
+        }
+
+        public SqlMapper.IMemberMap GetConstructorParameter(ConstructorInfo constructor, string columnName)
+        {
+            foreach (var mapper in _mappers)
+            {
+                try
+                {
+                    var result = mapper.GetConstructorParameter(constructor, columnName);
+
+                    if (result != null)
+                    {
+                        return result;
+                    }
+                }
+                catch (NotImplementedException nix)
+                {
+                    // the CustomPropertyTypeMap only supports a no-args
+                    // constructor and throws a not implemented exception.
+                    // to work around that, catch and ignore.
+                }
+            }
+            return null;
+        }
+
+        public SqlMapper.IMemberMap GetMember(string columnName)
+        {
+            foreach (var mapper in _mappers)
+            {
+                try
+                {
+                    var result = mapper.GetMember(columnName);
+
+                    if (result != null)
+                    {
+                        return result;
+                    }
+                }
+                catch (NotImplementedException nix)
+                {
+                    // the CustomPropertyTypeMap only supports a no-args
+                    // constructor and throws a not implemented exception.
+                    // to work around that, catch and ignore.
+                }
+            }
+            return null;
+        }
+    }
+}
+ColumnAttributeTypeMapper.cs
+
+using System.Linq;
+using Dapper;
+
+namespace DapperTestProj.DapperAttributeMapper
+{
+    public class ColumnAttributeTypeMapper<T> : FallBackTypeMapper
+    {
+        public ColumnAttributeTypeMapper()
+            : base(new SqlMapper.ITypeMap[]
+                    {
+                        new CustomPropertyTypeMap(typeof(T),
+                            (type, columnName) =>
+                                type.GetProperties().FirstOrDefault(prop =>
+                                    prop.GetCustomAttributes(false)
+                                        .OfType<ColumnAttribute>()
+                                        .Any(attribute => attribute.Name == columnName)
+                            )
+                        ),
+                        new DefaultTypeMap(typeof(T)) 
+                    })
+        {
+        }
+    }
+}
+and finally, the TypeMapper.cs to initialize the mapping.
+
+using System;
+using System.Linq;
+using System.Reflection;
+using Dapper;
+
+namespace DapperTestProj.DapperAttributeMapper
+{
+    public static class TypeMapper
+    {
+        public static void Initialize(string @namespace)
+        {
+            var types = from assem in AppDomain.CurrentDomain.GetAssemblies().ToList()
+                    from type in assem.GetTypes()
+                    where type.IsClass && type.Namespace == @namespace
+                    select type;
+
+            types.ToList().ForEach(type =>
+            {
+                var mapper = (SqlMapper.ITypeMap)Activator
+                    .CreateInstance(typeof(ColumnAttributeTypeMapper<>)
+                                    .MakeGenericType(type));
+                SqlMapper.SetTypeMap(type, mapper);
+            });
+        }
+    }
+}
+At start up, TypeMapper.Initialize needs to be called:
+
+TypeMapper.Initialize("DapperTestProj.Entities");
+And you can start using attributes for the entity properties
+
+using DapperTestProj.DapperAttributeMapper;
+
+namespace DapperTestProj.Entities
+{
+    public class Table1
+    {
+        [Column("Table1Id")]
+        public int Id { get; set; }
+
+        public string Column1 { get; set; }
+
+        public string Column2 { get; set; }
+
+        public Table2 Table2 { get; set; }
+
+        public Table1()
+        {
+            Table2 = new Table2();
+        }
+    }
+}
+Cornelis
+
+Popular Answer
+Cornelis's answer is correct, however I wanted to add an update to this. As of the current version of Dapper you also need to implement SqlMapper.ItypeMap.FindExplicitConstructor(). I'm not sure when this change was made, but this for anyone else that stumbles upon this question and is missing that part of the solution.
+
+Within FallbackTypeMapper.cs
+
+public ConstructorInfo FindExplicitConstructor()
+{
+    return _mappers.Select(m => m.FindExplicitConstructor())
+        .FirstOrDefault(result => result != null);
+}
+Also you can use the ColumnAttribute class located within the System.ComponentModel.DataAnnotations.Schema namespace instead of rolling your own for build-in non-database/orm specific version.

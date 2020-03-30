@@ -11,6 +11,18 @@
           "lib/netstandard2.0/Microsoft.Practices.ServiceLocation.dll": {}
         }
       },
+      "Dapper/2.0.30": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {}
+        }
+      },
       "MessagePack/2.1.90": {
         "type": "package",
         "dependencies": {
@@ -2455,6 +2467,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Dapper": "2.0.30",
           "MessagePack": "2.1.90",
           "MessagePack.AspNetCoreMvcFormatter": "2.1.90",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "2.2.0",
@@ -2484,6 +2497,21 @@
         "commonservicelocator.netcore.nuspec",
         "lib/netstandard2.0/Microsoft.Practices.ServiceLocation.dll",
         "lib/netstandard2.0/Microsoft.Practices.ServiceLocation.xml"
+      ]
+    },
+    "Dapper/2.0.30": {
+      "sha512": "nL0VEpvunjIQ3jTI1x27b7BS3BnRnn5b2vhxsU2pWEd9SljF5WUQLoV/83qXTm0yaHmejRV/ndI3EApGlrgPqw==",
+      "type": "package",
+      "path": "dapper/2.0.30",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.2.0.30.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
       ]
     },
     "MessagePack/2.1.90": {

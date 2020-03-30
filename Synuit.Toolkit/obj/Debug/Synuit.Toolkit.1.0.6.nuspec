@@ -15,6 +15,7 @@
     <repository type="C#" url="https://github.com/Synuit/Synuit.Toolkit" />
     <dependencies>
       <group targetFramework=".NETStandard2.1">
+        <dependency id="Dapper" version="2.0.30" exclude="Build,Analyzers" />
         <dependency id="MessagePack" version="2.1.90" exclude="Build,Analyzers" />
         <dependency id="MessagePack.AspNetCoreMvcFormatter" version="2.1.90" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNetCore.Mvc.ApiExplorer" version="2.2.0" exclude="Build,Analyzers" />
