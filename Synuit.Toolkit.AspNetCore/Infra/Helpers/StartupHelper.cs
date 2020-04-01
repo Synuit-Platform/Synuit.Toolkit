@@ -4,11 +4,13 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Synuit.Toolkit.Common;
 using Synuit.Toolkit.Infra.Configuration;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
@@ -16,7 +18,13 @@ namespace Synuit.Toolkit.Infra.Helpers
 {
    public static class StartupHelper
    {
-      public static IServiceCollection AddControllersAndCommonServices(this IServiceCollection services, IConfiguration configuration)
+      public static IServiceCollection AddControllersAndCommonServices
+      (
+         this IServiceCollection services,
+         IConfiguration configuration,
+         string apiTitle,
+         string apiVersion
+      )
       {
          ///////////////////////////////////////////////
          // --> Add Mvc Controllers                   //
@@ -28,11 +36,18 @@ namespace Synuit.Toolkit.Infra.Helpers
                setupAction.ReturnHttpNotAcceptable = true;
             }
          )
+         ///////////////////////////////////////////////
+         // --> Api Message Formats Setup             //
+         ///////////////////////////////////////////////
          .SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
          .AddApiFormatting()
+
+         ///////////////////////////////////////////////
+         // --> Api Documentation Support             //
+         ///////////////////////////////////////////////
          .AddApiExplorer();
+         services.AddApiDocumentationSupport(apiTitle, apiVersion);
          //
-         services.AddApiVersioning();
 
          ///////////////////////////////////////////////
          // --> Cookie Policy                         //
@@ -63,7 +78,7 @@ namespace Synuit.Toolkit.Infra.Helpers
          return services;
       }
 
-      public static IMvcBuilder AddApiFormatting(this IMvcBuilder builder)
+      private static IMvcBuilder AddApiFormatting(this IMvcBuilder builder)
       {
          builder.AddNewtonsoftJson(options =>
           {
@@ -82,8 +97,8 @@ namespace Synuit.Toolkit.Infra.Helpers
       {
          // --> add version support
          services.AddApiVersioning();
-         ///var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
-         // Set the comments path for the Swagger JSON and UI.
+
+         // --> Set the comments path for the Swagger JSON and UI.
          var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
          var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
 
@@ -92,7 +107,7 @@ namespace Synuit.Toolkit.Infra.Helpers
          (
             options =>
             {
-               options.SwaggerDoc("v1", new OpenApiInfo { Title = "Synuit Policy Server", Version = "v1" });
+               options.SwaggerDoc(apiVersion, new OpenApiInfo { Title = apiTitle, Version = apiVersion });
 
                options.IncludeXmlComments(xmlPath);
             }
@@ -100,10 +115,7 @@ namespace Synuit.Toolkit.Infra.Helpers
          return services;
       }
 
-
-
-
-      public static IServiceCollection AddCorsPolicy(this IServiceCollection services, IConfiguration configuration)
+      private static IServiceCollection AddCorsPolicy(this IServiceCollection services, IConfiguration configuration)
       {
          /// Example Configuration
          ///
@@ -111,12 +123,12 @@ namespace Synuit.Toolkit.Infra.Helpers
          ///      "AllowedHosts": [
          ///   {
          ///         "Name": "*" }]},
-         var config = configuration.GetSection(ConfigConsts.CORS_CONFIG_ALLOWED_HOSTS);
+         var config = configuration.GetSection(ConfigConsts.CORS_CONFIG);
 
-         MonikerRegistry reg = new MonikerRegistry();
+         CorsConfig reg = new CorsConfig();
 
-         config.Bind(reg.Monikers);
-         if (reg.Monikers.Count > 0)
+         config.Bind(reg);
+         if (reg.AllowedHosts.Count > 0)
          {
             services.AddCors
             (
@@ -124,17 +136,7 @@ namespace Synuit.Toolkit.Infra.Helpers
                {
                   options.AddPolicy("AllowOrigins", builder =>
                   {
-                     //if (this.hostingEnvironment.IsDevelopment())
-                     //{
                      builder.WithOrigins(reg.ToStrings());
-                     ////}
-                     ////else if (this.hostingEnvironment.IsEnvironment("Test"))
-                     ////{
-                     ////}
-                     ////else if (this.hostingEnvironment.IsProduction())
-                     ////{
-                     /////   builder.WithOrigins("prod.website.com");
-                     //}
                   });
                   //
                   options.AddPolicy("AllowSubdomain", builder =>
@@ -144,6 +146,26 @@ namespace Synuit.Toolkit.Infra.Helpers
                });
          }
          return services;
+      }
+
+
+     //// public static IServiceCollection Configure
+     ////(
+     ////   this IServiceCollection services,
+     ////   IConfiguration configuration,
+     ////   string apiTitle,
+     ////   string apiVersion
+     ////)
+     //// {
+     //// }
+
+      }
+   public class CorsConfig : MonikerRegistry
+   {
+      public List<Moniker> AllowedHosts
+      {
+         get { return this._monikers; }
+         set { this._monikers = value; }
       }
    }
 }

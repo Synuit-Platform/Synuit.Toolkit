@@ -43,7 +43,7 @@ namespace Synuit.Toolkit.Infra.Helpers
                }
                catch (Exception e)
                {
-                  logger.Error($"Error creating {assembly} host builder in " + nameof(TProgram) + ": " + e.Message);
+                  logger.Error($"Error creating {assembly} host builder in " + typeof(TProgram) + ": " + e.Message);
                }
                
                // run the web app

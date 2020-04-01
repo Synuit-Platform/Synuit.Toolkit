@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Synuit.Toolkit.Common;
 using Synuit.Toolkit.Infra.Configuration;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Synuit.Toolkit.Infra.Data.Dapper.Mapper
@@ -48,16 +49,24 @@ namespace Synuit.Toolkit.Infra.Data.Dapper.Mapper
       {
          var config = configuration.GetSection(ConfigConsts.DAPPER_MAPPINGS);
 
-         MonikerRegistry reg = new MonikerRegistry();
+         DapperMappings reg = new DapperMappings();
 
          config.Bind(reg);
 
-         foreach (var moniker in reg.Monikers)
+         foreach (var namespce in reg.Namespaces)
          {
-            TypeMapper.Initialize(moniker.Name);
+            TypeMapper.Initialize(namespce.Name);
          }
 
          return services;
+      }
+   }
+   public class DapperMappings : MonikerRegistry
+   {
+      public List<Moniker> Namespaces
+      {
+         get { return this._monikers; }
+         set { this._monikers = value; }
       }
    }
 }
