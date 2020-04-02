@@ -34,7 +34,9 @@ namespace Synuit.Toolkit.Infra.Data.Dapper.Mapper
                   return result;
                }
             }
+#pragma warning disable CS0168 // Variable is declared but never used
             catch (NotImplementedException nix)
+#pragma warning restore CS0168 // Variable is declared but never used
             {
                // the CustomPropertyTypeMap only supports a no-args
                // constructor and throws a not implemented exception.
@@ -43,6 +45,7 @@ namespace Synuit.Toolkit.Infra.Data.Dapper.Mapper
          }
          return null;
       }
+
       public SqlMapper.IMemberMap GetConstructorParameter(ConstructorInfo constructor, string columnName)
       {
          foreach (var mapper in _mappers)
