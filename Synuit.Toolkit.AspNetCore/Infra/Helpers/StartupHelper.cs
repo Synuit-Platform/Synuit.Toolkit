@@ -11,6 +11,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using Synuit.Platform.Services.Metadata;
 using Synuit.Toolkit.Common;
 using Synuit.Toolkit.Infra.Configuration;
 using System;
@@ -112,6 +113,11 @@ namespace Synuit.Toolkit.Infra.Helpers
          // --> AutoMapper Setup                      //
          ///////////////////////////////////////////////
          services = (startup.AutoMapper) ? services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()) : services;
+
+         ///////////////////////////////////////////////
+         // --> UNIQUE ID SERVICE                     //
+         ///////////////////////////////////////////////
+         services.AddSingleton<IUniqueIdService<Guid>, BasicUuidGenerator>();
 
          //
          return services;
