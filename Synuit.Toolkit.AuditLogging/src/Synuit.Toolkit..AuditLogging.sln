@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC923A9F-7505-4F58-9031-07423631E9F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{8DEBFB85-B120-4788-99A3-AA8E600D100C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.AuditLogging", "Synuit.Toolkit.AuditLogging\Synuit.Toolkit.AuditLogging.csproj", "{789CC948-1CD3-40EA-9943-BE6D19D43335}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.AuditLogging.EntityFramework", "Synuit.ToolkitAuditLogging.EntityFramework\Synuit.Toolkit.AuditLogging.EntityFramework.csproj", "{87AC7D74-AC58-4075-8931-2C43419C1B40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.AuditLogging.Host", "Synuit.Toolkit.AuditLogging.Host\Synuit.Toolkit.AuditLogging.Host.csproj", "{B362BA63-0736-4CF8-9907-0F0B97FA3F8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{789CC948-1CD3-40EA-9943-BE6D19D43335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789CC948-1CD3-40EA-9943-BE6D19D43335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789CC948-1CD3-40EA-9943-BE6D19D43335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789CC948-1CD3-40EA-9943-BE6D19D43335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AC7D74-AC58-4075-8931-2C43419C1B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AC7D74-AC58-4075-8931-2C43419C1B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AC7D74-AC58-4075-8931-2C43419C1B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AC7D74-AC58-4075-8931-2C43419C1B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B362BA63-0736-4CF8-9907-0F0B97FA3F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B362BA63-0736-4CF8-9907-0F0B97FA3F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B362BA63-0736-4CF8-9907-0F0B97FA3F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B362BA63-0736-4CF8-9907-0F0B97FA3F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{789CC948-1CD3-40EA-9943-BE6D19D43335} = {FC923A9F-7505-4F58-9031-07423631E9F9}
+		{87AC7D74-AC58-4075-8931-2C43419C1B40} = {FC923A9F-7505-4F58-9031-07423631E9F9}
+		{B362BA63-0736-4CF8-9907-0F0B97FA3F8F} = {8DEBFB85-B120-4788-99A3-AA8E600D100C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF7B00EF-1390-47B3-9249-815FE87DC009}
+	EndGlobalSection
+EndGlobal
