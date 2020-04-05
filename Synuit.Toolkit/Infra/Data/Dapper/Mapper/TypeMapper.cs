@@ -19,7 +19,7 @@ namespace Synuit.Toolkit.Infra.Data.Dapper.Mapper
    ///   "DapperMappings":{
    ///      "Namespaces": [
    ///      {
-   ///         "Name": "Synuit.Context.Data.Entities"
+   ///         "Name": "Synuit.Metadata.Data.Entities"
    ///      },
    ///      {
    ///         "Name": "Synuit.Metadata.Contexts.Entities"
