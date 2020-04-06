@@ -29,6 +29,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\bin\Debug\netstandard2.1\Synuit.Toolkit.dll" target="lib\netstandard2.1\Synuit.Toolkit.dll" />
+    <file src="C:\Users\tcorv\source\repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit\bin\Debug\netstandard2.1\Synuit.Toolkit.dll" target="lib\netstandard2.1\Synuit.Toolkit.dll" />
   </files>
 </package>

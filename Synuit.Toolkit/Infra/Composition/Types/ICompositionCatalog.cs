@@ -6,9 +6,9 @@ using System.Collections.Generic;
 
 namespace Synuit.Toolkit.Infra.Composition.Types
 {
-   public interface ICompositionCatalog<T> where T : class
+   public interface ICompositionCatalog
    {
-      IDictionary<string, T> Instances { get; }
+  
       bool Composed { get; }
 
       void Compose(string repository, string filter = "*.*");

@@ -2,8 +2,6 @@
 {
    public class StartupConfigConsts
    {
-
-
       ////////////////////////////////////////////
       // Startup Configuration                  //
       ////////////////////////////////////////////
@@ -24,17 +22,22 @@
       ///      "Routing" : true,
       ///      "AddAuthorization" : true,
       ///      "UseAuthorization" : true,
+      ///      "PluginsEngine: true,
       ///      "ExecutionEngine" : true
-      ///   } 
+      ///   }
 
       public const string STARTUP_CONFIG = "StartupConfig";
+
       //
       public const string API_FORMATTING = "ApiFormatting";
+
       public const string API_DOCUMENTATION = "ApiDocumentation";
       public const string HTTP_CONTEXT_ACCESSOR = "HttpContextAccessor";
       public const string CORS_POLICY = "CorsPolicy";
+
       //
       public const string HSTS = "Hsts";
+
       public const string STATIC_FILES = "StaticFiles";
       public const string HTTPS_REDIRECTION = "HttpsRedirection";
       public const string COOKIE_POLICY = "CookiePolicy";
@@ -45,5 +48,6 @@
       //
       public const string EXECUTION_ENGINE = "ExecutionEngine";
 
+      public const string PLUGINS_ENGINE = "PluginsEngine";
    }
 }

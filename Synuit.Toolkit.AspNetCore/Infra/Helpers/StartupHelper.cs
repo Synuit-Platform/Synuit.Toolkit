@@ -52,6 +52,17 @@ namespace Synuit.Toolkit.Infra.Helpers
          bool withViews = false
       )
       {
+
+         ///////////////////////////////////////////////
+         // --> Load Plugins                          //
+         ///////////////////////////////////////////////
+         services = (startup.PluginsEngine) ? services.LoadPluginsConfig(configuration) : services;
+
+
+
+
+
+
          ///////////////////////////////////////////////
          // --> Add Mvc Controllers                   //
          ///////////////////////////////////////////////

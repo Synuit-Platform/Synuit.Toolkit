@@ -2,6 +2,8 @@
 
 namespace Synuit.Toolkit.Infra.Configuration
 {
+   
+
    public abstract class MonikerRegistry
    {
       protected List<Moniker> _monikers { get; set; } = new List<Moniker>();
@@ -21,11 +23,6 @@ namespace Synuit.Toolkit.Infra.Configuration
             }
          }
          return strings;
-      }
-
-      public class Moniker
-      {
-         public string Name { get; set; }
       }
    }
 }

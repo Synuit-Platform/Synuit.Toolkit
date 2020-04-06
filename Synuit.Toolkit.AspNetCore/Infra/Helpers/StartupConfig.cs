@@ -29,5 +29,7 @@
       public bool UseAuthorization { get; set; } = false;
       //
       public bool ExecutionEngine { get; set; } = false;
+      
+      public bool PluginsEngine { get; set; } = false;
    }
 }
