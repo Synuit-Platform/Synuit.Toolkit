@@ -1,7 +1,7 @@
 ﻿using Dapper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Synuit.Toolkit.Common;
+
 using Synuit.Toolkit.Infra.Configuration;
 using System;
 using System.Collections.Generic;

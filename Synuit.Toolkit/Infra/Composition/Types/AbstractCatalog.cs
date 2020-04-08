@@ -15,12 +15,24 @@ namespace Synuit.Toolkit.Infra.Composition.Types
 {
    public abstract class AbstractCatalog : ICompositionCatalog
    {
-      protected List<Assembly> _assemblies = null;
+      public string Name { get; } = "";
+      protected List<Assembly> _assemblies = new List<Assembly>();
 
       public bool Composed { get; internal set; } = false;
 
       //
       public bool Configured { get; internal set; } = false;
+
+      public IList<Assembly> Assemblies => _assemblies;
+
+      public AbstractCatalog() : this("")
+      {
+      }
+
+      public AbstractCatalog(string name)
+      {
+         this.Name = name;
+      }
 
       //
       public virtual void Compose(string repository, string filter = "*.*")

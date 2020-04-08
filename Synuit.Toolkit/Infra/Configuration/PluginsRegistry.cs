@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Synuit.Toolkit.Infra.Configuration
 {
    /// <summary>
-   /// 
+   ///
    /// </summary>
    /// <remarks>
    ///   ------------------------------
    ///   Example Configuration:
    ///   -------------------------------
    ///   "PluginsRegistry": {
-   ///      "Catalogs": 
+   ///      "Catalogs":
    ///      [
    ///         {
    ///            "Name": "Contollers",
@@ -53,24 +51,29 @@ namespace Synuit.Toolkit.Infra.Configuration
    ///   //      "Name": "Synuit.Metadata.Data.DbContexts"
    ///   //    }
    /// ]
-   /// 
+   ///
    /// </remarks>
    public class PluginsRegistry
    {
+      private Dictionary<string, Catalog> _dictionary = null;
       public Catalogs Catalogs { get; set; } = new Catalogs();
+
       public Dictionary<string, Catalog> ToDictionary()
       {
-         var catalogs = Catalogs;
-         var dictionary = new Dictionary<string, Catalog>();
-         //
-         if (catalogs.Count > 0)
+         if (_dictionary == null)
          {
-            foreach (var catalog in catalogs)
+            var catalogs = Catalogs;
+            _dictionary = new Dictionary<string, Catalog>();
+            //
+            if (catalogs.Count > 0)
             {
-               dictionary.Add(catalog.Name, catalog);
+               foreach (var catalog in catalogs)
+               {
+                  _dictionary.Add(catalog.Name, catalog);
+               }
             }
          }
-         return dictionary;
+         return _dictionary;
       }
    }
 }

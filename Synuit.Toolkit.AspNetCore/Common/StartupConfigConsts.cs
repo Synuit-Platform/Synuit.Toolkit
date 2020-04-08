@@ -22,8 +22,12 @@
       ///      "Routing" : true,
       ///      "AddAuthorization" : true,
       ///      "UseAuthorization" : true,
-      ///      "PluginsEngine: true,
-      ///      "ExecutionEngine" : true
+      ///      "ExecutionEngine" : true,
+      ///      "PluginsEngine": true,
+      ///      "ContollerPlugins": true,
+      ///      "ServicePlugins": false,
+      ///      "RepoPlugins": false,
+      ///      "DbContextPlugins": false
       ///   }
 
       public const string STARTUP_CONFIG = "StartupConfig";
@@ -48,6 +52,12 @@
       //
       public const string EXECUTION_ENGINE = "ExecutionEngine";
 
+      //
       public const string PLUGINS_ENGINE = "PluginsEngine";
+
+      public const string CONTROLLER_PLUGINS = "ContollerPlugins";
+      public const string SERVICE_PLUGINS = "ServicePlugins";
+      public const string REPO_PLUGINS = "RepoPlugins";
+      public const string DB_CONTEXT_PLUGINS = "DbContextPlugins";
    }
 }

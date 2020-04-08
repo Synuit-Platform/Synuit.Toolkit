@@ -40,8 +40,4 @@
     <ProjectReference Include="..\Synuit.Toolkit\Synuit.Toolkit.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Infra\Helpers\NewFolder\" />
-  </ItemGroup>
-
 </Project>

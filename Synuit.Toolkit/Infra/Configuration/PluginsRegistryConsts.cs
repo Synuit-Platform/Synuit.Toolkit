@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Synuit.Toolkit.Infra.Configuration
+﻿namespace Synuit.Toolkit.Infra.Configuration
 {
    /// <summary>
-   /// 
+   ///
    /// </summary>
    /// <remarks>
    ///   ------------------------------
    ///   Example Configuration:
    ///   -------------------------------
    ///   "PluginsRegistry": {
-   ///      "Catalogs": 
+   ///      "Catalogs":
    ///      [
    ///         {
-   ///            "Name": "Contollers",
+   ///            "Name": "Controllers",
    ///            "Mask": "*.Api.dll",
    ///            "Type": "controller",
    ///            "Path": "plugins\\controllers",
@@ -52,12 +48,18 @@ namespace Synuit.Toolkit.Infra.Configuration
    ///      "Name": "Synuit.Metadata.Data.DbContexts"
    ///   }
    /// ]
-   /// 
+   ///
    /// </remarks>
-   public class PluginsRegistryConsts
+   public static class PluginsRegistryConsts
    {
-
       //
       public const string PLUGINS_REGISTRY = "PluginsRegistry";
+
+      public const string PLUGINS_REGISTRY_CONTROLLERS = "Controllers";
+      public const string PLUGINS_REGISTRY_SERVICES = "Services";
+      public const string PLUGINS_REGISTRY_REPOS = "Repositories";
+      public const string PLUGINS_REGISTRY_DB_CONTEXTS = "DbContexts";
+
+      public const string PLUGINS_REGISTRY_NAMESPACES = "Namespaces";
    }
 }

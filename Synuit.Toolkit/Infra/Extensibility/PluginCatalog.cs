@@ -10,6 +10,10 @@ namespace Synuit.Toolkit.Infra.Extensibility
 {
    public class PluginCatalog : AbstractCatalog<IPluginFactory>
    {
+      public PluginCatalog(string name) : base(name)
+      {
+      }
+
       protected override string DeriveKey(IPluginFactory obj)
       {
          return obj.Name;

@@ -6,9 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Composition;
 using System.Composition.Hosting;
-using System.IO;
 using System.Linq;
-using System.Reflection;
 
 //using System.Runtime.Loader;
 //using System.Runtime.
@@ -17,11 +15,14 @@ namespace Synuit.Toolkit.Infra.Composition.Types
 {
    public abstract class AbstractCatalog<T> : AbstractCatalog, ICompositionCatalog<T> where T : class
    {
-      
       public IDictionary<string, T> Instances { get; internal set; } = new Dictionary<string, T>(); //{ get { return _instances; } }
 
       [ImportMany]
       private IEnumerable<T> _objects { get; set; }
+
+      public AbstractCatalog(string name) : base(name)
+      {
+      }
 
       //
       public override void Compose(string repository, string filter = "*.*")
