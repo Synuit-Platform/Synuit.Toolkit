@@ -61,7 +61,7 @@ namespace Synuit.Toolkit.Tests
          //Assert.True(File.Exists(pluginA));
          //Assert.True(File.Exists(pluginB));
 
-         var catalog = new PluginCatalog();
+         var catalog = new PluginCatalog("");
          Assert.True(catalog.Composed == false);
          catalog.Compose(repo, "Synuit.Toolkit.Test.Plugin.*.dll");
          Assert.True(catalog.Instances.Count == 2);
@@ -74,7 +74,7 @@ namespace Synuit.Toolkit.Tests
       {
          var repo = Path.GetDirectoryName(typeof(CatalogTests).Assembly.Location);
 
-         var catalog = new PluginCatalog();
+         var catalog = new PluginCatalog("");
          catalog.Compose(repo, "Synuit.Toolkit.Test.Plugin.*.dll");
          //
          var factory = catalog.Instances["A"];
@@ -93,7 +93,7 @@ namespace Synuit.Toolkit.Tests
       {
          // --> load and compose the catalog
          var repo = Path.GetDirectoryName(typeof(CatalogTests).Assembly.Location);
-         var catalog = new PluginCatalog();
+         var catalog = new PluginCatalog("");
          catalog.Compose(repo, "Synuit.Toolkit.Test.Plugin.*.dll");
 
          // --> reference factories and pull their default metadata/templates

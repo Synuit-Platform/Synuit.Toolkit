@@ -44,6 +44,9 @@
 
       public bool DbContextPlugins { get; set; } = false;
 
-   
+      /////////////////////////////////////////////////////
+      // --> UNIQUE ID ENGINE                            //
+      /////////////////////////////////////////////////////
+      public bool UniqueIdEngine { get; set; } = false;
    }
 }

@@ -36,6 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Synuit.Platform\Synuit.Platform.Data\Synuit.Platform.Data.csproj" />
     <ProjectReference Include="..\..\Synuit.Platform\Synuit.Platform.Services\Synuit.Platform.Services.csproj" />
     <ProjectReference Include="..\Synuit.Toolkit\Synuit.Toolkit.csproj" />
   </ItemGroup>

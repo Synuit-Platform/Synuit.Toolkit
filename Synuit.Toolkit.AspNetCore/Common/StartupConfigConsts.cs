@@ -27,7 +27,8 @@
       ///      "ContollerPlugins": true,
       ///      "ServicePlugins": false,
       ///      "RepoPlugins": false,
-      ///      "DbContextPlugins": false
+      ///      "DbContextPlugins": false,
+      ///      "UniqueIdEngine": false
       ///   }
 
       public const string STARTUP_CONFIG = "StartupConfig";
@@ -59,5 +60,8 @@
       public const string SERVICE_PLUGINS = "ServicePlugins";
       public const string REPO_PLUGINS = "RepoPlugins";
       public const string DB_CONTEXT_PLUGINS = "DbContextPlugins";
+      //
+      public const string UNIQUE_ID_ENGINE = "UniqueIdEngine";
+
    }
 }

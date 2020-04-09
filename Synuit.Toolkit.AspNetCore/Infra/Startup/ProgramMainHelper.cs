@@ -29,7 +29,7 @@ namespace Synuit.Toolkit.Infra.Startup
          //
          var seed = args.Any(x => x == _seedArgs);
          if (seed) args = args.Except(new[] { _seedArgs }).ToArray();
-         
+
          try
          {
             //
@@ -39,14 +39,14 @@ namespace Synuit.Toolkit.Infra.Startup
             {
                try
                {
-                  if (!(bool)customBootstrap?.Invoke(host, scope, logger).Invoke()) 
+                  if (!(bool)customBootstrap?.Invoke(host, scope, logger).Invoke())
                      throw new Exception("Something went wrong in custom bootstrap code.");
                }
                catch (Exception e)
                {
                   logger.Error($"Error creating {assembly} host builder in " + typeof(TProgram) + ": " + e.Message);
                }
-               
+
                // run the web app
                host.Run();
 
@@ -61,7 +61,6 @@ namespace Synuit.Toolkit.Infra.Startup
          {
             Log.CloseAndFlush();
          }
-        
       }
    }
 }

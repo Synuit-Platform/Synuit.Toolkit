@@ -11,7 +11,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using Synuit.Platform.Data.Repositories;
 using Synuit.Platform.Services.Metadata;
+using Synuit.Platform.Uniques.SnowMaker;
 using Synuit.Toolkit.Common;
 using Synuit.Toolkit.Infra.Configuration;
 using System;
@@ -106,7 +108,13 @@ namespace Synuit.Toolkit.Infra.Startup
          services = (startup.Configuration.AutoMapper) ? services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()) : services;
 
          ///////////////////////////////////////////////
-         // --> UNIQUE ID SERVICE                     //
+         // --> UNIQUE ID ENGINE (SNOWMAKER)          //
+         ///////////////////////////////////////////////
+         services = (startup.Configuration.UniqueIdEngine) ? services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()) : services;
+
+
+         ///////////////////////////////////////////////
+         // --> UNIQUE ID SERVICE  (COMB)             //
          ///////////////////////////////////////////////
          services.AddSingleton<IUniqueIdService<Guid>, BasicUuidGenerator>();
 
@@ -223,6 +231,39 @@ namespace Synuit.Toolkit.Infra.Startup
          }
          return services;
       }
+
+
+
+
+      public static IServiceCollection AddSnowmaker
+      (
+            this IServiceCollection services,
+            IConfiguration configuration,
+            IServiceProvider provider
+      )
+      {
+
+
+         ///////////////////////////////////////////////
+         // --> SnowMaker Id Generator Services       //
+         ///////////////////////////////////////////////
+
+         services.AddSingleton<IUniqueIdGenerator<int>, UniqueIntegerGenerator>();
+         services.AddScoped<IOptimisticDataStore<int>, DbOptimisticIntegerStore>();
+
+         // --> add factories (register the repository (ef core))
+
+         services.AddFactory<IUniqueIntegerRepository, UniqueIntegerRepository>();
+      
+
+    
+         return services;
+      }
+
+
+
+
+
 
       public static IApplicationBuilder ConfigureApplication
       (

@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.Test.Plugin.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.Test.Plugin.B", "tests\Synuit.Toolkit.Tests.Plugin.B\Synuit.Toolkit.Test.Plugin.B.csproj", "{F90FC37E-1D65-4AF1-9631-79DD29887064}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "combme", "tests\comb\combme.csproj", "{ACE730D7-4631-41CD-BE2A-03617F4BE069}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.AuditLogging", "Synuit.Toolkit.AuditLogging\src\Synuit.Toolkit.AuditLogging\Synuit.Toolkit.AuditLogging.csproj", "{47094D6C-93E6-4C16-A63E-8ADCD13C5F54}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.AuditLogging.EntityFramework", "Synuit.Toolkit.AuditLogging\src\Synuit.ToolkitAuditLogging.EntityFramework\Synuit.Toolkit.AuditLogging.EntityFramework.csproj", "{48F9A986-76D1-497A-9B34-EBD2CE501AFE}"
@@ -55,10 +53,6 @@ Global
 		{F90FC37E-1D65-4AF1-9631-79DD29887064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F90FC37E-1D65-4AF1-9631-79DD29887064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F90FC37E-1D65-4AF1-9631-79DD29887064}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ACE730D7-4631-41CD-BE2A-03617F4BE069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACE730D7-4631-41CD-BE2A-03617F4BE069}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACE730D7-4631-41CD-BE2A-03617F4BE069}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACE730D7-4631-41CD-BE2A-03617F4BE069}.Release|Any CPU.Build.0 = Release|Any CPU
 		{47094D6C-93E6-4C16-A63E-8ADCD13C5F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{47094D6C-93E6-4C16-A63E-8ADCD13C5F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47094D6C-93E6-4C16-A63E-8ADCD13C5F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -79,7 +73,6 @@ Global
 		{5C491260-1C60-4006-BEA2-6ADFFFE75688} = {743CC033-315F-426C-9F0A-6DD1F1858835}
 		{6C8D33C8-D555-40BC-B60C-FADFA1CF1181} = {743CC033-315F-426C-9F0A-6DD1F1858835}
 		{F90FC37E-1D65-4AF1-9631-79DD29887064} = {743CC033-315F-426C-9F0A-6DD1F1858835}
-		{ACE730D7-4631-41CD-BE2A-03617F4BE069} = {743CC033-315F-426C-9F0A-6DD1F1858835}
 		{FC761C11-D1E4-4CC6-AF90-83103528D306} = {743CC033-315F-426C-9F0A-6DD1F1858835}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

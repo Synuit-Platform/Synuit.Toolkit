@@ -4,6 +4,72 @@
     "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit.AspNetCore\\Synuit.Toolkit.AspNetCore.csproj": {}
   },
   "projects": {
+    "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Data\\Synuit.Platform.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Data\\Synuit.Platform.Data.csproj",
+        "projectName": "Synuit.Platform.Data",
+        "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Data\\Synuit.Platform.Data.csproj",
+        "packagesPath": "C:\\Users\\tcorv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tcorv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Sdk\\Synuit.Platform.Sdk.csproj": {
+                "projectPath": "C:\\Users\\tcorv\\source\\repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Sdk\\Synuit.Platform.Sdk.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Sdk\\Synuit.Platform.Sdk.csproj": {
       "version": "1.0.2",
       "restore": {
@@ -30,7 +96,11 @@
         },
         "frameworks": {
           "netstandard2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj": {
+                "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Toolkit\\Synuit.Toolkit\\Synuit.Toolkit.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -44,7 +114,7 @@
           "dependencies": {
             "CSharpFunctionalExtensions": {
               "target": "Package",
-              "version": "[2.5.0, )"
+              "version": "[2.6.0, )"
             },
             "EasyCaching.Core": {
               "target": "Package",
@@ -94,9 +164,17 @@
               "target": "Package",
               "version": "[2.2.5, )"
             },
+            "Microsoft.Azure.Storage.Blob": {
+              "target": "Package",
+              "version": "[11.1.3, )"
+            },
             "Microsoft.CSharp": {
               "target": "Package",
               "version": "[4.7.0, )"
+            },
+            "Microsoft.DiaSymReader.Native": {
+              "target": "Package",
+              "version": "[1.7.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -177,7 +255,7 @@
           "dependencies": {
             "CSharpFunctionalExtensions": {
               "target": "Package",
-              "version": "[2.5.0, )"
+              "version": "[2.6.0, )"
             }
           },
           "imports": [
@@ -226,6 +304,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Data\\Synuit.Platform.Data.csproj": {
+                "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Data\\Synuit.Platform.Data.csproj"
+              },
               "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Services\\Synuit.Platform.Services.csproj": {
                 "projectPath": "C:\\Users\\tcorv\\Source\\Repos\\Synuit-Platform\\Synuit.Platform\\Synuit.Platform.Services\\Synuit.Platform.Services.csproj"
               },
