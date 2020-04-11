@@ -1,14 +1,16 @@
 ﻿using Microsoft.Extensions.Logging;
+using Synuit.Toolkit.Infra.Composition.Types;
 using System;
+using System.Data;
 
 namespace Synuit.Toolkit.Infra.Data.Repositories
 {
-   public abstract class RepositoryWithConn<TFactory> where TFactory : DbConnectionFactory
+   public abstract class RepositoryWithConn
    {
-      protected readonly TFactory _factory;
+      protected readonly IFactory<IDbConnection> _factory;
       protected readonly ILogger _logger;
 
-      public RepositoryWithConn(TFactory factory, ILogger logger)
+      protected RepositoryWithConn(IFactory<IDbConnection> factory, ILogger logger)
       {
          _logger = logger ?? throw new ArgumentNullException(nameof(logger));
          _factory = factory ?? throw new ArgumentNullException(nameof(factory));

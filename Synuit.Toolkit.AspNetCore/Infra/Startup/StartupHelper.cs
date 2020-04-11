@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,14 +12,19 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using Synuit.Platform.Data.DbConnections;
+using Synuit.Platform.Data.DbContexts;
 using Synuit.Platform.Data.Repositories;
 using Synuit.Platform.Services.Metadata;
 using Synuit.Platform.Uniques.SnowMaker;
+using Synuit.Platform.Uniques.SnowMaker.Services;
 using Synuit.Toolkit.Common;
 using Synuit.Toolkit.Infra.Configuration;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using Synuit.Toolkit.Infra.Data;
+using Synuit.Toolkit.Infra.Data.Dapper.Mapper;
 
 namespace Synuit.Toolkit.Infra.Startup
 {
@@ -43,9 +49,10 @@ namespace Synuit.Toolkit.Infra.Startup
       }
 
       //
-      public static IServiceCollection AddControllersAndCommonServices
+      public static IServiceCollection AddControllersAndPlatformServices
       (
          this IServiceCollection services,
+         IServiceProvider provider,
          IConfiguration configuration,
          IStartupManager startup,
          string apiTitle,
@@ -63,6 +70,20 @@ namespace Synuit.Toolkit.Infra.Startup
          ///////////////////////////////////////////////
          var builder = services.AddMvcControllers(startup, withViews);
          builder.SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+         ///////////////////////////////////////////////
+         // --> Dapper Column Mapping Setup           //
+         ///////////////////////////////////////////////
+         //--> dapper (entity property to column mappings)
+         services = (startup.Configuration.AddDapperMappings) 
+            ? services.AddDapperMappings(configuration) : services;
+
+         ///////////////////////////////////////////////
+         // --> Add Platform Database Support         // 
+         ///////////////////////////////////////////////
+         services = (startup.Configuration.AddPlatformDatabase && startup.Configuration.AddDapperMappings) 
+            ? services.AddPlatformDatabase(configuration, provider) : services;
+
 
          ///////////////////////////////////////////////
          // --> Add Authorization Policy Services     //
@@ -110,7 +131,8 @@ namespace Synuit.Toolkit.Infra.Startup
          ///////////////////////////////////////////////
          // --> UNIQUE ID ENGINE (SNOWMAKER)          //
          ///////////////////////////////////////////////
-         services = (startup.Configuration.UniqueIdEngine) ? services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()) : services;
+         services = (startup.Configuration.UniqueIdEngine && startup.Configuration.AddPlatformDatabase) 
+            ? services.AddSnowmaker() : services;
 
 
          ///////////////////////////////////////////////
@@ -232,15 +254,22 @@ namespace Synuit.Toolkit.Infra.Startup
          return services;
       }
 
+      public static IServiceCollection AddPlatformDatabase
+         (this IServiceCollection services, IConfiguration configuration, IServiceProvider provider)
+      {
 
+         var connection = configuration["ConnectionStrings:PlatformDbConnection"];
 
+         // --> platform schema
+         services.AddDbContextFactory<PlatformContext>(builder => builder
+             .UseSqlServer(connection), ServiceLifetime.Singleton, provider);
 
-      public static IServiceCollection AddSnowmaker
-      (
-            this IServiceCollection services,
-            IConfiguration configuration,
-            IServiceProvider provider
-      )
+         services.AddDbConnectionFactory<PlatformConnectionFactory>(connection);
+
+         return services;
+
+      }
+         public static IServiceCollection AddSnowmaker( this IServiceCollection services )
       {
 
 
@@ -249,9 +278,9 @@ namespace Synuit.Toolkit.Infra.Startup
          ///////////////////////////////////////////////
 
          services.AddSingleton<IUniqueIdGenerator<int>, UniqueIntegerGenerator>();
-         services.AddScoped<IOptimisticDataStore<int>, DbOptimisticIntegerStore>();
+         services.AddSingleton<IOptimisticDataStore<int>, DbOptimisticIntegerStore>();
 
-         // --> add factories (register the repository (ef core))
+         // --> add factory (register the repository (ef core))
 
          services.AddFactory<IUniqueIntegerRepository, UniqueIntegerRepository>();
       

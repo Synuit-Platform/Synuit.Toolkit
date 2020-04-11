@@ -44,6 +44,11 @@
 
       public bool DbContextPlugins { get; set; } = false;
 
+
+      public bool AddDapperMappings { get; set; } = false;
+      //
+      public bool AddPlatformDatabase { get; set; } = false;
+
       /////////////////////////////////////////////////////
       // --> UNIQUE ID ENGINE                            //
       /////////////////////////////////////////////////////
