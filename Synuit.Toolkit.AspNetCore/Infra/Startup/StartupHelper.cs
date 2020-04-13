@@ -15,16 +15,15 @@ using Newtonsoft.Json.Serialization;
 using Synuit.Platform.Data.DbConnections;
 using Synuit.Platform.Data.DbContexts;
 using Synuit.Platform.Data.Repositories;
-using Synuit.Platform.Services.Metadata;
-using Synuit.Platform.Uniques.SnowMaker;
+using Synuit.Platform.Uniques.Comb;
 using Synuit.Platform.Uniques.SnowMaker.Services;
 using Synuit.Toolkit.Common;
 using Synuit.Toolkit.Infra.Configuration;
+using Synuit.Toolkit.Infra.Data;
+using Synuit.Toolkit.Infra.Data.Dapper.Mapper;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Synuit.Toolkit.Infra.Data;
-using Synuit.Toolkit.Infra.Data.Dapper.Mapper;
 
 namespace Synuit.Toolkit.Infra.Startup
 {
@@ -75,15 +74,14 @@ namespace Synuit.Toolkit.Infra.Startup
          // --> Dapper Column Mapping Setup           //
          ///////////////////////////////////////////////
          //--> dapper (entity property to column mappings)
-         services = (startup.Configuration.AddDapperMappings) 
+         services = (startup.Configuration.AddDapperMappings)
             ? services.AddDapperMappings(configuration) : services;
 
          ///////////////////////////////////////////////
-         // --> Add Platform Database Support         // 
+         // --> Add Platform Database Support         //
          ///////////////////////////////////////////////
-         services = (startup.Configuration.AddPlatformDatabase && startup.Configuration.AddDapperMappings) 
+         services = (startup.Configuration.AddPlatformDatabase && startup.Configuration.AddDapperMappings)
             ? services.AddPlatformDatabase(configuration, provider) : services;
-
 
          ///////////////////////////////////////////////
          // --> Add Authorization Policy Services     //
@@ -131,9 +129,8 @@ namespace Synuit.Toolkit.Infra.Startup
          ///////////////////////////////////////////////
          // --> UNIQUE ID ENGINE (SNOWMAKER)          //
          ///////////////////////////////////////////////
-         services = (startup.Configuration.UniqueIdEngine && startup.Configuration.AddPlatformDatabase) 
+         services = (startup.Configuration.UniqueIdEngine && startup.Configuration.AddPlatformDatabase)
             ? services.AddSnowmaker() : services;
-
 
          ///////////////////////////////////////////////
          // --> UNIQUE ID SERVICE  (COMB)             //
@@ -257,8 +254,7 @@ namespace Synuit.Toolkit.Infra.Startup
       public static IServiceCollection AddPlatformDatabase
          (this IServiceCollection services, IConfiguration configuration, IServiceProvider provider)
       {
-
-         var connection = configuration["ConnectionStrings:PlatformDbConnection"];
+         var connection = configuration[StartupConfigConsts.PLATFORM_DB_CONNECTION];
 
          // --> platform schema
          services.AddDbContextFactory<PlatformContext>(builder => builder
@@ -267,12 +263,10 @@ namespace Synuit.Toolkit.Infra.Startup
          services.AddDbConnectionFactory<PlatformConnectionFactory>(connection);
 
          return services;
-
       }
-         public static IServiceCollection AddSnowmaker( this IServiceCollection services )
+
+      public static IServiceCollection AddSnowmaker(this IServiceCollection services)
       {
-
-
          ///////////////////////////////////////////////
          // --> SnowMaker Id Generator Services       //
          ///////////////////////////////////////////////
@@ -283,16 +277,9 @@ namespace Synuit.Toolkit.Infra.Startup
          // --> add factory (register the repository (ef core))
 
          services.AddFactory<IUniqueIntegerRepository, UniqueIntegerRepository>();
-      
 
-    
          return services;
       }
-
-
-
-
-
 
       public static IApplicationBuilder ConfigureApplication
       (

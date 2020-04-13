@@ -23,6 +23,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.AuditLogging
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.AuditLogging.Host", "Synuit.Toolkit.AuditLogging\src\Synuit.Toolkit.AuditLogging.Host\Synuit.Toolkit.AuditLogging.Host.csproj", "{FC761C11-D1E4-4CC6-AF90-83103528D306}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "signalr", "signalr", "{3FAFF3BA-5FBF-43EA-928A-BC51FAC51DF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.SignalR.Server.Sdk", "Synuit.Toolkit.SignalR.Sdk\Synuit.Toolkit.SignalR.Server.Sdk\Synuit.Toolkit.SignalR.Server.Sdk.csproj", "{F5B6FFB6-3B8A-4536-BAB4-2355A088B467}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.SignalR.Client.Sdk", "Synuit.Toolkit.SignalR.Sdk\Synuit.Toolkit.SignalR.Client.Sdk\Synuit.Toolkit.SignalR.Client.Sdk.csproj", "{AFA65C46-3F27-4083-86EB-8CB62DDC9CD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.SignalR.Test.Server", "Synuit.Toolkit.SignalR.Sdk\Tests\Synuit.Toolkit.SignalR.Test.Server\Synuit.Toolkit.SignalR.Test.Server.csproj", "{C7B2321E-DD27-4FF2-A391-AE3E5FA29286}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.SignalR.Test.Lib", "Synuit.Toolkit.SignalR.Sdk\Tests\Synuit.Toolkit.SignalR.Test.Lib\Synuit.Toolkit.SignalR.Test.Lib.csproj", "{DC59A9DA-FBCE-4635-BE44-4C823F8CAE75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synuit.Toolkit.SignalR.Test.Client", "Synuit.Toolkit.SignalR.Sdk\Tests\Synuit.Toolkit.SignalR.Test.Client\Synuit.Toolkit.SignalR.Test.Client.csproj", "{9F117190-50FE-4B13-B8EE-6ABB9C85A9C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auditlogging", "auditlogging", "{60E3166C-4FB8-453B-B422-6E51E66B4A5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Synuit.Toolkit.SignalR", "Synuit.Toolkit.SignalR", "{7DA1F1A1-DC18-4434-86D2-EBF06E33891A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +81,26 @@ Global
 		{FC761C11-D1E4-4CC6-AF90-83103528D306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC761C11-D1E4-4CC6-AF90-83103528D306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC761C11-D1E4-4CC6-AF90-83103528D306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B6FFB6-3B8A-4536-BAB4-2355A088B467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B6FFB6-3B8A-4536-BAB4-2355A088B467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B6FFB6-3B8A-4536-BAB4-2355A088B467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B6FFB6-3B8A-4536-BAB4-2355A088B467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA65C46-3F27-4083-86EB-8CB62DDC9CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA65C46-3F27-4083-86EB-8CB62DDC9CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA65C46-3F27-4083-86EB-8CB62DDC9CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA65C46-3F27-4083-86EB-8CB62DDC9CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B2321E-DD27-4FF2-A391-AE3E5FA29286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B2321E-DD27-4FF2-A391-AE3E5FA29286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B2321E-DD27-4FF2-A391-AE3E5FA29286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B2321E-DD27-4FF2-A391-AE3E5FA29286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC59A9DA-FBCE-4635-BE44-4C823F8CAE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC59A9DA-FBCE-4635-BE44-4C823F8CAE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC59A9DA-FBCE-4635-BE44-4C823F8CAE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC59A9DA-FBCE-4635-BE44-4C823F8CAE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F117190-50FE-4B13-B8EE-6ABB9C85A9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F117190-50FE-4B13-B8EE-6ABB9C85A9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F117190-50FE-4B13-B8EE-6ABB9C85A9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F117190-50FE-4B13-B8EE-6ABB9C85A9C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,7 +109,14 @@ Global
 		{5C491260-1C60-4006-BEA2-6ADFFFE75688} = {743CC033-315F-426C-9F0A-6DD1F1858835}
 		{6C8D33C8-D555-40BC-B60C-FADFA1CF1181} = {743CC033-315F-426C-9F0A-6DD1F1858835}
 		{F90FC37E-1D65-4AF1-9631-79DD29887064} = {743CC033-315F-426C-9F0A-6DD1F1858835}
-		{FC761C11-D1E4-4CC6-AF90-83103528D306} = {743CC033-315F-426C-9F0A-6DD1F1858835}
+		{FC761C11-D1E4-4CC6-AF90-83103528D306} = {60E3166C-4FB8-453B-B422-6E51E66B4A5E}
+		{3FAFF3BA-5FBF-43EA-928A-BC51FAC51DF4} = {743CC033-315F-426C-9F0A-6DD1F1858835}
+		{F5B6FFB6-3B8A-4536-BAB4-2355A088B467} = {7DA1F1A1-DC18-4434-86D2-EBF06E33891A}
+		{AFA65C46-3F27-4083-86EB-8CB62DDC9CD7} = {7DA1F1A1-DC18-4434-86D2-EBF06E33891A}
+		{C7B2321E-DD27-4FF2-A391-AE3E5FA29286} = {3FAFF3BA-5FBF-43EA-928A-BC51FAC51DF4}
+		{DC59A9DA-FBCE-4635-BE44-4C823F8CAE75} = {3FAFF3BA-5FBF-43EA-928A-BC51FAC51DF4}
+		{9F117190-50FE-4B13-B8EE-6ABB9C85A9C5} = {3FAFF3BA-5FBF-43EA-928A-BC51FAC51DF4}
+		{60E3166C-4FB8-453B-B422-6E51E66B4A5E} = {743CC033-315F-426C-9F0A-6DD1F1858835}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1CDF4A4-0590-4798-88E4-30012D0928BA}

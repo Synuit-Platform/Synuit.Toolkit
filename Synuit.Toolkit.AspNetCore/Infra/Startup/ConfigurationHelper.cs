@@ -28,10 +28,13 @@ namespace Synuit.Toolkit.Infra.Startup
       }
 
       public static IConfigurationBuilder BuildConfiguration
-      (this IConfigurationBuilder builder, IHostEnvironment env, string appPath, string[] args)
-      {
-         //$!!$ tac builder.Sources.Clear();
-         
+      (
+         this IConfigurationBuilder builder, 
+         IHostEnvironment env, 
+         string appPath, 
+         string[] args
+      )
+      {  
          builder.SetBasePath(appPath)
          .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
          .AddJsonFile($"appsettings.{GetAppSettingsNameFromEnv(env.EnvironmentName)}.json", optional: true, reloadOnChange: true)

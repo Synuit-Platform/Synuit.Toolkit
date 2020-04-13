@@ -62,12 +62,16 @@
       public const string SERVICE_PLUGINS = "ServicePlugins";
       public const string REPO_PLUGINS = "RepoPlugins";
       public const string DB_CONTEXT_PLUGINS = "DbContextPlugins";
+
       //
       public const string ADD_PLATFORM_DATABASE = "AddPlatformDatabase";
+
       //
       public const string UNIQUE_ID_ENGINE = "UniqueIdEngine";
+
       //
       public const string ADD_DAPPER_MAPPINGS = "AddDapperMappings";
 
+      public const string PLATFORM_DB_CONNECTION = "ConnectionStrings:PlatformDbConnection";
    }
 }
