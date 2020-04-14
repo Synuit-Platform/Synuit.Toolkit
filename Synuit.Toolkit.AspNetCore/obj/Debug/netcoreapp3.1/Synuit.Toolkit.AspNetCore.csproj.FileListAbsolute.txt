@@ -1,6 +1,3 @@
-C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.csprojAssemblyReference.cache
-C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.AssemblyInfoInputs.cache
-C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.AssemblyInfo.cs
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.deps.json
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.dll
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.pdb
@@ -9,11 +6,14 @@ C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNet
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Platform.Sdk.dll
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Platform.Services.dll
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Toolkit.dll
-C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Platform.Data.pdb
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Platform.Services.pdb
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Toolkit.pdb
-C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Core.Sdk.pdb
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Platform.Sdk.pdb
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Platform.Data.pdb
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\bin\Debug\netcoreapp3.1\Synuit.Core.Sdk.pdb
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.csprojAssemblyReference.cache
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.AssemblyInfoInputs.cache
+C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.AssemblyInfo.cs
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.csproj.CopyComplete
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.dll
 C:\Users\tcorv\Source\Repos\Synuit-Platform\Synuit.Toolkit\Synuit.Toolkit.AspNetCore\obj\Debug\netcoreapp3.1\Synuit.Toolkit.AspNetCore.pdb

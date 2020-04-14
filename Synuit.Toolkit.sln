@@ -39,6 +39,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auditlogging", "auditloggin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Synuit.Toolkit.SignalR", "Synuit.Toolkit.SignalR", "{7DA1F1A1-DC18-4434-86D2-EBF06E33891A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{6933CBA1-86FD-4FAF-BE7D-73D47C45B1DD}"
+	ProjectSection(SolutionItems) = preProject
+		files\LICENSE.md = files\LICENSE.md
+		files\synuit1.png = files\synuit1.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
