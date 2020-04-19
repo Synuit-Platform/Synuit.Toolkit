@@ -2,7 +2,9 @@
 //  Synuit.Toolkit - Synuit Platform Tools - Type Library, Patterns and Tooling
 //  Copyright © 2012-2018 Synuit. All Rights Reserved.
 //
-namespace Synuit.Toolkit.Models.Metadata
+using Synuit.Toolkit.Metadata.Types;
+
+namespace Synuit.Toolkit.Metadata.Models
 {
    public class ExplicitModel : MetaModel
    {

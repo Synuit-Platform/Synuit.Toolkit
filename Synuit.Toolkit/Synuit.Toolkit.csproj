@@ -3,41 +3,44 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Company>Synuit Software</Company>
-    <Authors>Tyson A. Corvin</Authors>
+    <Company>Synuit LLC</Company>
+    <Authors>Team Synuit</Authors>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageLicenseUrl>https://github.com/Synuit/Synuit.Toolkit/blob/master/LICENSE</PackageLicenseUrl>
-    <Copyright>Copyright © 2012-2018 Synuit Software</Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <Copyright>Copyright © 2012-2020 Synuit LLC.</Copyright>
     <Version>1.0.6</Version>
     <NeutralLanguage>en-US</NeutralLanguage>
     <RepositoryType>C#</RepositoryType>
     <PackageProjectUrl>https://github.com/Synuit/Synuit.Toolkit</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Synuit/Synuit.Toolkit</RepositoryUrl>
-    <PackageIconUrl>http://www.javelinmediagroup.com/wp-content/uploads/2018/04/synuit_packages.png</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
     <PackageReleaseNotes>v1.0.6 Modified to target .NET Standard 2.1 to enhance cross-platform capabilities.</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageIcon>synuit1.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Utils\Comb\**" />
-    <EmbeddedResource Remove="Utils\Comb\**" />
-    <None Remove="Utils\Comb\**" />
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="MessagePack" Version="2.1.90" />
+    <PackageReference Include="MessagePack.AspNetCoreMvcFormatter" Version="2.1.90" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Composition" Version="1.0.31" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Unity.NetCore" Version="4.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-		<PackageReference Include="Dapper" Version="2.0.30" />
-		<PackageReference Include="MessagePack" Version="2.1.90" />
-		<PackageReference Include="MessagePack.AspNetCoreMvcFormatter" Version="2.1.90" />
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.2.0" />
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
-		<PackageReference Include="Microsoft.Composition" Version="1.0.31" />
-
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
-		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-		<PackageReference Include="Unity.NetCore" Version="4.0.3" />
-	</ItemGroup>
-
-
-
-
+    <None Include="..\files\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\files\synuit1.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 </Project>

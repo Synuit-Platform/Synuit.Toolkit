@@ -11,9 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Synuit Software")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Synuit LLC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2012-2018 Synuit Software")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2012-2020 Synuit LLC.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.6.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Synuit.Toolkit")]

@@ -4,7 +4,7 @@
 //
 //
 using Newtonsoft.Json;
-using Synuit.Toolkit.Models.Metadata;
+using Synuit.Toolkit.Metadata.Models;
 using System;
 
 //

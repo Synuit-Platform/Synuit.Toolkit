@@ -38,7 +38,7 @@ namespace Synuit.Toolkit.Infra.Configuration
    ///   //  "Path": "plugins\\repos",
    ///   //  "Namespaces": [
    ///   //    {
-   ///    //      "Name": "Synuit.Metadata.Contexts.Repositories"
+   ///    //      "Name": "Synuit.Metadata.Data.Repositories.Contexts"
    ///   //    }
    ///   //  ]
    ///    //},
